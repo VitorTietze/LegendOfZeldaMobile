@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float speed;
+    //[SerializeField] private PlayerAttack playerAttack;
+    [SerializeField] private float movementTime;
+    [SerializeField] private float movementDistance;
     [SerializeField] private FixedJoystick joystick;
+    [SerializeField] private float startMovementThreshold;
     private Vector2 inputDirection;
     private new Rigidbody2D rigidbody;
+    private bool isMoving;
+    private int horizontal;
+    private int vertical;
 
-    private void Start()
+    private void Awake()
     {
         rigidbody = GetComponent<Rigidbody2D>();
     }
@@ -17,10 +23,46 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         inputDirection = joystick.Direction;
+        if (inputDirection != Vector2.zero){
+            ChangeDirection();
+        }
+
+        if (!isMoving && inputDirection.magnitude > startMovementThreshold){
+            StartCoroutine(Move());
+        }
     }
 
-    private void FixedUpdate()
+    private void ChangeDirection()
     {
-        //rigidbody.MovePosition((Vector2)transform.position + (direction * speed * Time.fixedDeltaTime));
+        if (Mathf.Abs(inputDirection.x) > Mathf.Abs(inputDirection.y)){
+            if (inputDirection.x > 0){
+                horizontal = 1;
+            } else if (inputDirection.x < 0){
+                horizontal = -1;
+            }
+            vertical = 0;
+        } else {
+            if (inputDirection.y > 0){
+                vertical = 1;
+            } else if (inputDirection.y < 0){
+                vertical = -1;
+            }
+            horizontal = 0;
+        }
+        
+        /* if (!isMoving && !playerAttack.isAttacking){
+            animator.SetInt("horizontal", horizontal);
+            animator.SetInt("vertical", vertical);
+        } */
+    }
+
+    private IEnumerator Move()
+    {
+        isMoving = true;
+        Vector2 movementDirection = new Vector2((float)horizontal, (float)vertical).normalized;
+        rigidbody.velocity = movementDirection * movementDistance / movementTime;
+        yield return new WaitForSeconds(movementTime);
+        rigidbody.velocity = Vector2.zero;
+        isMoving = false;
     }
 }

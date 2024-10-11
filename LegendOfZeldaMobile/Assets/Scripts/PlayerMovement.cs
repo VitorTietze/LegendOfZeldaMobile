@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    //[SerializeField] private PlayerAttack playerAttack;
+    [SerializeField] private PlayerAttack playerAttack;
     [SerializeField] private float movementTime;
     [SerializeField] private float movementDistance;
     [SerializeField] private FixedJoystick joystick;
     [SerializeField] private float startMovementThreshold;
     private Vector2 inputDirection;
     private new Rigidbody2D rigidbody;
-    private bool isMoving;
+    public bool isMoving;
+    public Vector2 movementDirection;
     private int horizontal;
     private int vertical;
 
@@ -59,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
     private IEnumerator Move()
     {
         isMoving = true;
-        Vector2 movementDirection = new Vector2((float)horizontal, (float)vertical).normalized;
+        movementDirection = new Vector2((float)horizontal, (float)vertical).normalized;
         rigidbody.velocity = movementDirection * movementDistance / movementTime;
         yield return new WaitForSeconds(movementTime);
         rigidbody.velocity = Vector2.zero;

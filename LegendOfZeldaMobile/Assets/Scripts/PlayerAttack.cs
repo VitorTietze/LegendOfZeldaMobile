@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.UI.Image;
+using UnityEngine.UIElements;
 
 public class PlayerAttack : MonoBehaviour
 {
-    [SerializeField] private PlayerMovement playerMovement;
-    [SerializeField] private PlayerHealth playerHealth;
+    private PlayerMovement playerMovement;
+    private PlayerHealth playerHealth;
+    private GameObject thrownSword;
     private float damage = 3f; // arbitrary
     private float width = 1f;
     private float depth = 1f;
@@ -14,7 +17,18 @@ public class PlayerAttack : MonoBehaviour
 
     private void Awake()
     {
+        playerMovement = GetComponent<PlayerMovement>();
+        playerHealth = GetComponent<PlayerHealth>();
+        thrownSword = Resources.Load<GameObject>("Prefabs/ThrownSword");
         layerMask = LayerMask.NameToLayer("Enemies");
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SwordAttack();
+        }
     }
 
     public void SwordAttack()
@@ -27,16 +41,17 @@ public class PlayerAttack : MonoBehaviour
         
         foreach (Collider2D hit in hitColliders)
         {
-            hit.gameObject.GetComponent<Enemy>().TakeDamage(damage);
+            hit.gameObject.GetComponent<Enemy>()?.TakeDamage(damage);
         }
 
-        if (playerHealth.CheckIfFullHealth()){
+        if (playerHealth.isFullHealth){
             ThrowSword();
         }
     }
 
     private void ThrowSword()
     {
-
+        GameObject swordObj= Instantiate(thrownSword, transform.position, Quaternion.identity, transform);
+        swordObj.GetComponent<ThrownSword>().Initialize(direction, damage);
     }
 }

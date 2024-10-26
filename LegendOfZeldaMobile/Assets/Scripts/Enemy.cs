@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    private float health;
+    protected float health;
 
     public void TakeDamage(float damage)
     {

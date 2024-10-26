@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private PlayerAttack playerAttack;
+    private PlayerAttack playerAttack;
     [SerializeField] private float movementTime;
     [SerializeField] private float movementDistance;
     [SerializeField] private FixedJoystick joystick;
@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
+        playerAttack = GetComponent<PlayerAttack>();
         rigidbody = GetComponent<Rigidbody2D>();
     }
 

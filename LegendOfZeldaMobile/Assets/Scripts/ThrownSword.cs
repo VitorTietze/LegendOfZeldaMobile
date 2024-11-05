@@ -7,7 +7,7 @@ public class ThrownSword : MonoBehaviour
     [SerializeField] private new Rigidbody2D rigidbody;
     private float speed = 4f; // arbitrary
     private float damage;
-    private float despawnTime = 8f;
+    private float despawnTime = 4.5f;
 
     public void Initialize(Vector2 direction, float originalDamage)
     {

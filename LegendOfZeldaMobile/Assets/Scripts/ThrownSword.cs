@@ -6,7 +6,7 @@ public class ThrownSword : MonoBehaviour
 {
     [SerializeField] private new Rigidbody2D rigidbody;
     private float speed = 4f; // arbitrary
-    public float damage;
+    private float damage;
     private float despawnTime = 8f;
 
     public void Initialize(Vector2 direction, float originalDamage)
@@ -30,11 +30,16 @@ public class ThrownSword : MonoBehaviour
         Destroy(gameObject);
     }
 
+    private void DealDamage(GameObject hitObject)
+    {
+        hitObject.GetComponent<Enemy>()?.TakeDamage(damage);
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Enemies"))
         {
-            other.gameObject.GetComponent<Enemy>().TakeDamage(damage);
+            DealDamage(other.gameObject);
             ConsumeSword();
         }
 

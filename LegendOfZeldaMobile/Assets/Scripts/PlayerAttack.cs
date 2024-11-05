@@ -10,7 +10,7 @@ public class PlayerAttack : MonoBehaviour
     private PlayerHealth playerHealth;
     private GameObject thrownSword;
     private float damage = 3f; // arbitrary
-    private float width = 1f;
+    private float width = 1.5f;
     private float depth = 1f;
     private Vector2 direction;
     private LayerMask layerMask;
@@ -33,11 +33,12 @@ public class PlayerAttack : MonoBehaviour
 
     public void SwordAttack()
     {
-        direction = playerMovement.movementDirection;
+        direction = new Vector2(playerMovement.horizontal, playerMovement.vertical);
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         Vector2 boxCenter = (Vector2)transform.position + direction * depth / 2;
         Vector2 halfExtents = new Vector2(width / 2, depth / 2);
         Collider2D[] hitColliders = Physics2D.OverlapBoxAll(boxCenter, halfExtents, angle, layerMask);
+        DrawBox(angle, boxCenter, halfExtents);
         
         foreach (Collider2D hit in hitColliders)
         {
@@ -47,6 +48,22 @@ public class PlayerAttack : MonoBehaviour
         if (playerHealth.isFullHealth){
             ThrowSword();
         }
+    }
+
+    private void DrawBox(float angle, Vector2 boxCenter, Vector2 halfExtents)
+    {
+        Vector2 right = new Vector2(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad));
+        Vector2 up = new Vector2(-right.y, right.x);
+
+        Vector2 topRight = boxCenter + right * halfExtents.x + up * halfExtents.y;
+        Vector2 topLeft = boxCenter - right * halfExtents.x + up * halfExtents.y;
+        Vector2 bottomRight = boxCenter + right * halfExtents.x - up * halfExtents.y;
+        Vector2 bottomLeft = boxCenter - right * halfExtents.x - up * halfExtents.y;
+
+        Debug.DrawLine(topLeft, topRight, Color.red, 0.1f);
+        Debug.DrawLine(topRight, bottomRight, Color.red, 0.1f);
+        Debug.DrawLine(bottomRight, bottomLeft, Color.red, 0.1f);
+        Debug.DrawLine(bottomLeft, topLeft, Color.red, 0.1f);
     }
 
     private void ThrowSword()

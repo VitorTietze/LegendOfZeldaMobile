@@ -12,9 +12,9 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 inputDirection;
     private new Rigidbody2D rigidbody;
     public bool isMoving;
-    public Vector2 movementDirection;
-    private int horizontal;
-    private int vertical;
+    private Vector2 movementDirection;
+    public int horizontal;
+    public int vertical;
 
     private void Awake()
     {

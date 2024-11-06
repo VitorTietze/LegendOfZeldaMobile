@@ -1,0 +1,1038 @@
+fileFormatVersion: 2
+guid: a0c61df7f0f001c42b12eb7604f3bc89
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 693
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686400dbba8f1dd45b0342e1c46a891d
+      internalID: -748212664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 693
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879436e7715f57548b0d22c9e04e196a
+      internalID: -1352233423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_2
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 693
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0814f863cabf1444a8d2dd66ab6ebd2
+      internalID: -1080563209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_3
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 693
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5aa2f8bab73e64588fb2323276211e
+      internalID: 2102123863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_4
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 693
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111ed44f9bba6ab46993acf31b594211
+      internalID: -1090436437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_5
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 693
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d7a95c23de6a44cb71165faeea9d86
+      internalID: 1505088603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 578
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69e45c586f4e374fb1bae256121d700
+      internalID: 2004839042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_7
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 578
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23de01069a2e5c49806c3deb61737e1
+      internalID: 1000753092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_8
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 578
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5978f0bb6c2fc344b2a9210cf7e0390
+      internalID: -956807942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_9
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 578
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65056e6d0c4b0454684d46c6c871b0a0
+      internalID: 1958957836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_10
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 578
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d344b5d75b5cba4fa681ffb77b13b8c
+      internalID: -2070496524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_11
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 578
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7e7eacf541f6947890982e3309a4f0
+      internalID: -1310999885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 463
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d3fd4878e6f36489bc723b18cb012a
+      internalID: -102873520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_13
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 463
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630f8b5756be42d488f93038c8abceb6
+      internalID: -2076709593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_14
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 463
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c95f08ae82d5f249ad12baf1177830d
+      internalID: -633687857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_15
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 463
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2dbc541cfcd2224991e8adfc34adb1e
+      internalID: -1812661698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_16
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 463
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfd81a2eca5e7e4792553c6dca15fef
+      internalID: 476764524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_17
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 463
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a5970324b8f014a9aab5c98b512479
+      internalID: 40137933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 348
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a046beaf1aee341acddf0a0cac126f
+      internalID: 940504539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_19
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 348
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42daa9b5e0a53a849abdc5575546ef11
+      internalID: -1826148182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_20
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 348
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d895851f939b76348b381bfab7fdb298
+      internalID: -1162788173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_21
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 348
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63340d7ef5364994f8abd13ec7fc3310
+      internalID: -1919551098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_22
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 348
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466a4ca5886490c4483d67b2bbece8ca
+      internalID: 1647661811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_23
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 348
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5682814a441f7f49a31b69179c1bf28
+      internalID: 731810598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 233
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333d0ce5d965ca948a09c682b4ac04b4
+      internalID: -1186705431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_25
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 233
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9fc09031339f34cbe05a6690468feb
+      internalID: -758938475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_26
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 233
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b418dbf4cbed7d4459c1c51c4e791d5a
+      internalID: 1372735166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_27
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 233
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9e0943d74b44843992416d51aa6479
+      internalID: 26396905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_28
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 233
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c279620310869c4f95a0759bc9fc7f1
+      internalID: -184076117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_29
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 233
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5740417e8a06e874ba438678856c3514
+      internalID: 1781580302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_30
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 118
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbf38c497dfeff40b5b04ea97db9f03
+      internalID: 380086763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_31
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 118
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bf8873df5d04b49867ba5aee61987a
+      internalID: 1539684693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_32
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 118
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaafe0665c2f0d42a5b210a4e61ad97
+      internalID: 1265688499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_33
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 118
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744a4caa824edfb4a88b3b50d765bee4
+      internalID: 223568388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_34
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 118
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9403a5f0e6274149b2d3faa243ba726
+      internalID: -1432840896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_35
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 118
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3a90cb0ccfbfb42b900b17801d2a25
+      internalID: -1526402808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87410d80c4becd488317069e9963d48
+      internalID: 1256311988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_37
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 3
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1594a2b7f65fae548b069dd316e2254d
+      internalID: 1798565675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_38
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 3
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f516a0511e8cb46b8acf43f296c8ec
+      internalID: -1104067269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_39
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 3
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4834ffb7d555746b7918c28d99f5df
+      internalID: 89085497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_40
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 3
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af893aca84075941a30b8e91cd54b90
+      internalID: 1161371859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Tileset - Cortado_41
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 3
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f7b539eb9efdb4da1d04a3b8aa2f36
+      internalID: 921177291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dungeon Tileset - Cortado_0: -748212664
+      Dungeon Tileset - Cortado_1: -1352233423
+      Dungeon Tileset - Cortado_10: -2070496524
+      Dungeon Tileset - Cortado_11: -1310999885
+      Dungeon Tileset - Cortado_12: -102873520
+      Dungeon Tileset - Cortado_13: -2076709593
+      Dungeon Tileset - Cortado_14: -633687857
+      Dungeon Tileset - Cortado_15: -1812661698
+      Dungeon Tileset - Cortado_16: 476764524
+      Dungeon Tileset - Cortado_17: 40137933
+      Dungeon Tileset - Cortado_18: 940504539
+      Dungeon Tileset - Cortado_19: -1826148182
+      Dungeon Tileset - Cortado_2: -1080563209
+      Dungeon Tileset - Cortado_20: -1162788173
+      Dungeon Tileset - Cortado_21: -1919551098
+      Dungeon Tileset - Cortado_22: 1647661811
+      Dungeon Tileset - Cortado_23: 731810598
+      Dungeon Tileset - Cortado_24: -1186705431
+      Dungeon Tileset - Cortado_25: -758938475
+      Dungeon Tileset - Cortado_26: 1372735166
+      Dungeon Tileset - Cortado_27: 26396905
+      Dungeon Tileset - Cortado_28: -184076117
+      Dungeon Tileset - Cortado_29: 1781580302
+      Dungeon Tileset - Cortado_3: 2102123863
+      Dungeon Tileset - Cortado_30: 380086763
+      Dungeon Tileset - Cortado_31: 1539684693
+      Dungeon Tileset - Cortado_32: 1265688499
+      Dungeon Tileset - Cortado_33: 223568388
+      Dungeon Tileset - Cortado_34: -1432840896
+      Dungeon Tileset - Cortado_35: -1526402808
+      Dungeon Tileset - Cortado_36: 1256311988
+      Dungeon Tileset - Cortado_37: 1798565675
+      Dungeon Tileset - Cortado_38: -1104067269
+      Dungeon Tileset - Cortado_39: 89085497
+      Dungeon Tileset - Cortado_4: -1090436437
+      Dungeon Tileset - Cortado_40: 1161371859
+      Dungeon Tileset - Cortado_41: 921177291
+      Dungeon Tileset - Cortado_5: 1505088603
+      Dungeon Tileset - Cortado_6: 2004839042
+      Dungeon Tileset - Cortado_7: 1000753092
+      Dungeon Tileset - Cortado_8: -956807942
+      Dungeon Tileset - Cortado_9: 1958957836
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -16,6 +16,13 @@ public class PlayerMovement : MonoBehaviour
     public int horizontal;
     public int vertical;
 
+    [SerializeField] private Rigidbody2D cameraRigidbody;
+    [SerializeField] private Vector2 roomIntervals;
+    [SerializeField] private float panningTime;
+    [SerializeField] private float doorMovements;
+    private bool lockedMovement;
+    private Coroutine moveCoroutine;
+
     private void Awake()
     {
         playerAttack = GetComponent<PlayerAttack>();
@@ -30,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if (!isMoving && inputDirection.magnitude > startMovementThreshold){
-            StartCoroutine(Move());
+            moveCoroutine = StartCoroutine(Move());
         }
     }
 
@@ -60,11 +67,44 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator Move()
     {
+        if (!lockedMovement)
+        {
+            isMoving = true;
+            movementDirection = new Vector2((float)horizontal, (float)vertical).normalized;
+            rigidbody.velocity = movementDirection * movementDistance / movementTime;
+            yield return new WaitForSeconds(movementTime);
+            rigidbody.velocity = Vector2.zero;
+            isMoving = false;
+        }
+    }
+
+    private IEnumerator PanCamera()
+    {
+        StartCoroutine(MoveThroughDoor());
+        movementDirection = new Vector2((float)horizontal, (float)vertical).normalized;
+        float panningDistance = horizontal != 0 ? roomIntervals.x : roomIntervals.y;
+        cameraRigidbody.velocity = movementDirection * panningDistance / panningTime;
+        yield return new WaitForSeconds(panningTime - 0.01f);
+        cameraRigidbody.velocity = Vector2.zero;
+    }
+
+    private IEnumerator MoveThroughDoor()
+    {
+        lockedMovement = true;
         isMoving = true;
         movementDirection = new Vector2((float)horizontal, (float)vertical).normalized;
         rigidbody.velocity = movementDirection * movementDistance / movementTime;
-        yield return new WaitForSeconds(movementTime);
+        yield return new WaitForSeconds(movementTime * doorMovements);
         rigidbody.velocity = Vector2.zero;
         isMoving = false;
+        lockedMovement = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Doors")){
+            StartCoroutine(PanCamera());
+            StopCoroutine(moveCoroutine);
+        }
     }
 }

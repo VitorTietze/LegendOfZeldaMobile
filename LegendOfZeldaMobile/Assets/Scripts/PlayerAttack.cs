@@ -68,11 +68,11 @@ public class PlayerAttack : MonoBehaviour
 
     private void ThrowSword()
     {
-        /* GameObject swordObj = Instantiate(thrownSword, transform.position, Quaternion.identity, transform);
-        swordObj.GetComponent<ThrownSword>().Initialize(direction, damage); */
+        GameObject swordObj = Instantiate(thrownSword, transform.position, Quaternion.identity, transform);
+        swordObj.GetComponent<ThrownSword>().Initialize(direction, damage);
 
-        GameObject boomerang = Resources.Load<GameObject>("Prefabs/EnemyBoomerang");
+        /* GameObject boomerang = Resources.Load<GameObject>("Prefabs/EnemyBoomerang");
         GameObject boomObj = Instantiate(boomerang, transform.position, Quaternion.identity, transform);
-        boomObj.GetComponent<EnemyBoomerang>().Initialize(direction, transform);
+        boomObj.GetComponent<EnemyBoomerang>().Initialize(direction, transform); */
     }
 }

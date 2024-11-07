@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     protected float health;
+    public float damage;
 
     public void TakeDamage(float damage)
     {

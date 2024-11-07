@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class PlayerHealth : MonoBehaviour
     public bool isFullHealth => health == maxHealth;
     private bool immune;
     private bool touchingEnemy;
+
+    private int keys;
 
     private GameObject emptyHeart;
     private GameObject fullHeart;
@@ -82,6 +85,13 @@ public class PlayerHealth : MonoBehaviour
             }
             StartCoroutine(playerMovement.GetKnockedBack(knockbackDirection));
         }
+    }
+
+    [SerializeField] private TextMeshProUGUI keysTMP;
+    public void ChangeKeyAmount(int increment)
+    {
+        keys += increment;
+        keysTMP.text = keys.ToString();
     }
 
     private Transform enemyTransform;

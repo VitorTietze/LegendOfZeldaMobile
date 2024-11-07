@@ -103,7 +103,7 @@ public class PlayerMovement : MonoBehaviour
     public IEnumerator GetKnockedBack(Vector2 direction)
     {
         isMoving = true;
-        StopCoroutine(moveCoroutine);
+        if (moveCoroutine != null) StopCoroutine(moveCoroutine);
         rigidbody.velocity = direction * movementDistance * 12;
         yield return new WaitForSeconds(movementTime * 6);
         rigidbody.velocity = Vector2.zero;
@@ -114,7 +114,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Doors")){
             StartCoroutine(PanCamera());
-            StopCoroutine(moveCoroutine);
+            if (moveCoroutine != null) StopCoroutine(moveCoroutine);
         }
     }
 }

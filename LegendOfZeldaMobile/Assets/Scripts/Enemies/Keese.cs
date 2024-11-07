@@ -4,10 +4,44 @@ using UnityEngine;
 
 public class Keese : Enemy
 {
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
+
         health = 1f;
+        speed = 1.5f;
+        damage = 0.5f;
     }
 
+    private void OnEnable()
+    {
+        StartCoroutine(MovementPattern());
+    }
 
+    private (float min, float max) movementChangeIntervalRange = (0.9f, 1.8f);
+    private IEnumerator MovementPattern()
+    {
+        float interval;
+        Vector2 randomDirection;
+        while (true)
+        {
+            randomDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
+            rb.velocity = randomDirection * speed;
+
+            interval = Random.Range(movementChangeIntervalRange.min, movementChangeIntervalRange.max);
+            yield return new WaitForSeconds(interval);
+
+            rb.velocity = (PlayerHealth.player.position - transform.position).normalized * speed;
+
+            interval = Random.Range(movementChangeIntervalRange.min, movementChangeIntervalRange.max);
+            yield return new WaitForSeconds(interval);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Walls")){
+            rb.velocity *= -1;
+        }
+    }
 }

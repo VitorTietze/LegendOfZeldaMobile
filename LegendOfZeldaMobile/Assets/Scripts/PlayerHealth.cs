@@ -5,11 +5,13 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     private PlayerMovement playerMovement;
+    public static Transform player;
 
     private int maxHealth = 3;
     private float health;
     public bool isFullHealth => health == maxHealth;
     private bool immune;
+    private bool touchingEnemy;
 
     private GameObject emptyHeart;
     private GameObject fullHeart;
@@ -20,6 +22,7 @@ public class PlayerHealth : MonoBehaviour
     private void Awake()
     {
         playerMovement = GetComponent<PlayerMovement>();
+        player = transform;
 
         emptyHeart = Resources.Load<GameObject>("Prefabs/Hearts/EmptyHeart");
         fullHeart = Resources.Load<GameObject>("Prefabs/Hearts/FullHeart");
@@ -67,12 +70,26 @@ public class PlayerHealth : MonoBehaviour
         immune = true;
         yield return new WaitForSeconds(3f);
         immune = false;
+
+        if (touchingEnemy){
+            TakeDamage(enemyTransform.GetComponent<Enemy>().damage);
+
+            Vector2 knockbackDirection = (transform.position - enemyTransform.position).normalized;
+            if (Mathf.Abs(knockbackDirection.x) > Mathf.Abs(knockbackDirection.y)){
+                knockbackDirection = new Vector2(Mathf.Sign(knockbackDirection.x), 0);
+            } else {
+                knockbackDirection = new Vector2(0, Mathf.Sign(knockbackDirection.y));
+            }
+            StartCoroutine(playerMovement.GetKnockedBack(knockbackDirection));
+        }
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private Transform enemyTransform;
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.TryGetComponent<Enemy>(out Enemy enemy)){
-            other.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            enemyTransform = other.transform;
+            touchingEnemy = true;
             if (!immune){
                 TakeDamage(enemy.damage);
 
@@ -85,5 +102,10 @@ public class PlayerHealth : MonoBehaviour
                 StartCoroutine(playerMovement.GetKnockedBack(knockbackDirection));
             }
         }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        touchingEnemy = false;
     }
 }

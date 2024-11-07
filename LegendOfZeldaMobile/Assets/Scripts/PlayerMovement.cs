@@ -104,8 +104,8 @@ public class PlayerMovement : MonoBehaviour
     {
         isMoving = true;
         StopCoroutine(moveCoroutine);
-        rigidbody.velocity = direction * movementDistance * 6;
-        yield return new WaitForSeconds(movementTime * 3);
+        rigidbody.velocity = direction * movementDistance * 12;
+        yield return new WaitForSeconds(movementTime * 6);
         rigidbody.velocity = Vector2.zero;
         isMoving = false;
     }

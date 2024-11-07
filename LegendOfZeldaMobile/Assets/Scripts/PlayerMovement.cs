@@ -100,6 +100,16 @@ public class PlayerMovement : MonoBehaviour
         lockedMovement = false;
     }
 
+    public IEnumerator GetKnockedBack(Vector2 direction)
+    {
+        isMoving = true;
+        StopCoroutine(moveCoroutine);
+        rigidbody.velocity = direction * movementDistance * 6;
+        yield return new WaitForSeconds(movementTime * 3);
+        rigidbody.velocity = Vector2.zero;
+        isMoving = false;
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Doors")){

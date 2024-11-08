@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -48,6 +49,19 @@ public class PlayerHealth : MonoBehaviour
         // animation? + restart game
     }
 
+    public void HealHeart(float amount)
+    {
+        if (amount % 0.5f != 0) throw new Exception("Amount to heal must be divisible by 0.5.");
+        health = Mathf.Min(maxHealth, health + amount);
+        UpdateHearts();
+    }
+
+    public void GainHeart(int amount)
+    {
+        maxHealth += amount;
+        UpdateHearts();
+    }
+
     private void UpdateHearts()
     {
         foreach (Transform child in emptyHearts) Destroy(child.gameObject);
@@ -94,6 +108,14 @@ public class PlayerHealth : MonoBehaviour
         keysTMP.text = keys.ToString();
     }
 
+    private void UnlockDoor(Transform doorToUnlock)
+    {
+        ChangeKeyAmount(-1);
+        doorToUnlock.GetComponent<BoxCollider2D>().enabled = false;
+        Destroy(doorToUnlock.Find("Sprite1").gameObject);
+        Destroy(doorToUnlock.Find("Sprite2").gameObject);
+    }
+
     private Transform enemyTransform;
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -117,5 +139,15 @@ public class PlayerHealth : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other)
     {
         touchingEnemy = false;
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Doors"))
+        {
+            if (keys > 0){
+                UnlockDoor(other.transform);
+            }
+        }
     }
 }

@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float doorMovements;
     private Coroutine moveCoroutine;
     private int roomsLayer;
+    private List<Transform> currentRooms = new List<Transform>();
 
     private void Awake()
     {
@@ -126,10 +127,21 @@ public class PlayerMovement : MonoBehaviour
 
         if (other.gameObject.layer == roomsLayer)
         {
-            if (other.transform != focusedRoom){
+            currentRooms.Add(other.transform);
+            /* if (other.transform != focusedRoom){
                 focusedRoom = other.transform;
                 StartCoroutine(PanCamera());
-            }
+            } */
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.layer == roomsLayer)
+        {
+            currentRooms.Remove(other.transform);
+            focusedRoom = currentRooms[0];
+            StartCoroutine(PanCamera());
         }
     }
 }

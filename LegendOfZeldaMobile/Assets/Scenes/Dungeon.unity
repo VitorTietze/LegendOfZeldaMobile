@@ -123,6 +123,90 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &816339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 816340}
+  - component: {fileID: 816341}
+  m_Layer: 0
+  m_Name: Dungeon Tileset - Portas_16 (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &816340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816339}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.7222147, y: 43.98, z: -0.0016161557}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 958904623}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &816341
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816339}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 2035413774, guid: 1273df380164d964cb231c69a76b1702, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1001 &16502543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -627,6 +711,68 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 15, y: 10}
   m_EdgeRadius: 0
+--- !u!1001 &151770279
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 958904623}
+    m_Modifications:
+    - target: {fileID: 3750242108377329956, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_Name
+      value: Dungeon Tileset - Portas_0 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.714
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 52.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0016161557
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+--- !u!4 &151770280 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+  m_PrefabInstance: {fileID: 151770279}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &160816028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1410,6 +1556,90 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &424525677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 424525678}
+  - component: {fileID: 424525679}
+  m_Layer: 0
+  m_Name: Dungeon Tileset - Portas_16 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &424525678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424525677}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.7222147, y: 23.98, z: -0.0016161557}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 958904623}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &424525679
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424525677}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 2035413774, guid: 1273df380164d964cb231c69a76b1702, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &436642751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1521,6 +1751,68 @@ Transform:
   - {fileID: 1658537178}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &516794216
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 958904623}
+    m_Modifications:
+    - target: {fileID: 4383730793895845644, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_Name
+      value: Dungeon Tileset - Portas_10 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 55.459
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 38.241
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0016161557
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+--- !u!4 &516794217 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+  m_PrefabInstance: {fileID: 516794216}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &520488541
 GameObject:
   m_ObjectHideFlags: 0
@@ -1728,6 +2020,90 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 15, y: 10}
   m_EdgeRadius: 0
+--- !u!1 &579346839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 579346840}
+  - component: {fileID: 579346841}
+  m_Layer: 0
+  m_Name: Dungeon Tileset - Portas_16 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &579346840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579346839}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.7222147, y: 33.98, z: -0.0016161557}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 958904623}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &579346841
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579346839}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 2035413774, guid: 1273df380164d964cb231c69a76b1702, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &633749212
 GameObject:
   m_ObjectHideFlags: 0
@@ -2068,6 +2444,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &647069775
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 958904623}
+    m_Modifications:
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.995
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0016161557
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448008022647294914, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_Name
+      value: Dungeon Tileset - Portas_15 (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+--- !u!4 &647069776 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+  m_PrefabInstance: {fileID: 647069775}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &661654398
 GameObject:
   m_ObjectHideFlags: 0
@@ -2710,6 +3148,68 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &789940865
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 958904623}
+    m_Modifications:
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 48.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0016161557
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448008022647294914, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_Name
+      value: Dungeon Tileset - Portas_15 (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+--- !u!4 &789940866 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+  m_PrefabInstance: {fileID: 789940865}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &797478721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2772,6 +3272,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 915942400106451622, guid: 97e0ce8c37a4f6749a72b5a5bf524721, type: 3}
   m_PrefabInstance: {fileID: 797478721}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &807294152
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 958904623}
+    m_Modifications:
+    - target: {fileID: 4383730793895845644, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_Name
+      value: Dungeon Tileset - Portas_10 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.464
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 48.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0016161557
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+--- !u!4 &807294153 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+  m_PrefabInstance: {fileID: 807294152}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &882277799
 GameObject:
   m_ObjectHideFlags: 0
@@ -2811,6 +3373,174 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 882277799}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 760010686, guid: 1273df380164d964cb231c69a76b1702, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &894651052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 894651053}
+  - component: {fileID: 894651054}
+  m_Layer: 0
+  m_Name: Dungeon Tileset - Portas_1 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &894651053
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894651052}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.7222147, y: 42.5, z: -0.0016161557}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 958904623}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &894651054
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894651052}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 760010686, guid: 1273df380164d964cb231c69a76b1702, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &897392100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 897392101}
+  - component: {fileID: 897392102}
+  m_Layer: 0
+  m_Name: Dungeon Tileset - Portas_1 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &897392101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897392100}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.7222147, y: 22.5, z: -0.0016161557}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 958904623}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &897392102
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897392100}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -3212,6 +3942,130 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
   m_PrefabInstance: {fileID: 944477863}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &945666341
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 958904623}
+    m_Modifications:
+    - target: {fileID: 4383730793895845644, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_Name
+      value: Dungeon Tileset - Portas_10 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 25.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 18.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0016161557
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+--- !u!4 &945666342 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+  m_PrefabInstance: {fileID: 945666341}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &947155387
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 958904623}
+    m_Modifications:
+    - target: {fileID: 4383730793895845644, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_Name
+      value: Dungeon Tileset - Portas_10 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 40.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 28.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0016161557
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+--- !u!4 &947155388 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+  m_PrefabInstance: {fileID: 947155387}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &958904622
 GameObject:
   m_ObjectHideFlags: 0
@@ -3245,23 +4099,50 @@ Transform:
   - {fileID: 1731792491}
   - {fileID: 108743679}
   - {fileID: 358585981}
+  - {fileID: 1855348289}
+  - {fileID: 1639390277}
   - {fileID: 1653526075}
+  - {fileID: 1103063794}
+  - {fileID: 1692407903}
   - {fileID: 8296450880650747377}
+  - {fileID: 945666342}
   - {fileID: 882277800}
   - {fileID: 2027979903}
   - {fileID: 399398872}
+  - {fileID: 897392101}
+  - {fileID: 1442959609}
+  - {fileID: 1452939834}
+  - {fileID: 894651053}
   - {fileID: 1230207460}
+  - {fileID: 424525678}
+  - {fileID: 1339929054}
+  - {fileID: 579346840}
+  - {fileID: 816340}
   - {fileID: 780601609}
   - {fileID: 4628310965699303104}
   - {fileID: 815218544649969509}
   - {fileID: 3343746972677537862}
   - {fileID: 92598719}
+  - {fileID: 647069776}
+  - {fileID: 1040306555}
+  - {fileID: 789940866}
   - {fileID: 941528218}
+  - {fileID: 2028787672}
+  - {fileID: 1958581948}
+  - {fileID: 1876941651}
+  - {fileID: 151770280}
   - {fileID: 1525210795}
   - {fileID: 1393985283}
+  - {fileID: 2047793770}
+  - {fileID: 947155388}
+  - {fileID: 1305836777}
+  - {fileID: 516794217}
+  - {fileID: 807294153}
   - {fileID: 944477864}
   - {fileID: 256983808}
+  - {fileID: 1561663546}
   - {fileID: 1600136299}
+  - {fileID: 1565643611}
   - {fileID: 1793286477}
   m_Father: {fileID: 466673229}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3395,6 +4276,68 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 15, y: 10}
   m_EdgeRadius: 0
+--- !u!1001 &1040306554
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 958904623}
+    m_Modifications:
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.713
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0016161557
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448008022647294914, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+      propertyPath: m_Name
+      value: Dungeon Tileset - Portas_15 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+--- !u!4 &1040306555 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5752766853574129390, guid: f253bb6a0e7ce2c43b4533648ff6508d, type: 3}
+  m_PrefabInstance: {fileID: 1040306554}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1047628584
 GameObject:
   m_ObjectHideFlags: 0
@@ -3909,6 +4852,90 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 15, y: 10}
   m_EdgeRadius: 0
+--- !u!1 &1103063793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1103063794}
+  - component: {fileID: 1103063795}
+  m_Layer: 0
+  m_Name: Dungeon Tileset - Portas_6 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1103063794
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103063793}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.958, y: 18.243, z: -0.0016161557}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 958904623}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1103063795
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103063793}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1115165082, guid: 1273df380164d964cb231c69a76b1702, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.25, y: 2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1107671475
 GameObject:
   m_ObjectHideFlags: 0
@@ -4545,6 +5572,152 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!1001 &1305836776
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 958904623}
+    m_Modifications:
+    - target: {fileID: 4383730793895845644, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_Name
+      value: Dungeon Tileset - Portas_10 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.464
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 38.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0016161557
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+--- !u!4 &1305836777 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+  m_PrefabInstance: {fileID: 1305836776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1339929053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1339929054}
+  - component: {fileID: 1339929055}
+  m_Layer: 0
+  m_Name: Dungeon Tileset - Portas_16 (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1339929054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339929053}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.71, y: 23.98, z: -0.0016161557}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 958904623}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1339929055
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339929053}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 2035413774, guid: 1273df380164d964cb231c69a76b1702, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1347978770
 GameObject:
   m_ObjectHideFlags: 0
@@ -4935,6 +6108,174 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
   m_PrefabInstance: {fileID: 1393985282}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1442959608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1442959609}
+  - component: {fileID: 1442959610}
+  m_Layer: 0
+  m_Name: Dungeon Tileset - Portas_1 (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1442959609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442959608}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.71, y: 22.5, z: -0.0016161557}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 958904623}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1442959610
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442959608}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 760010686, guid: 1273df380164d964cb231c69a76b1702, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1452939833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1452939834}
+  - component: {fileID: 1452939835}
+  m_Layer: 0
+  m_Name: Dungeon Tileset - Portas_1 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1452939834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452939833}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.7222147, y: 32.5, z: -0.0016161557}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 958904623}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1452939835
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452939833}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 760010686, guid: 1273df380164d964cb231c69a76b1702, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1001 &1466464362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5425,6 +6766,130 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550970567}
   m_CullTransparentMesh: 1
+--- !u!1001 &1561663545
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 958904623}
+    m_Modifications:
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.958
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 28.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0016161557
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558764742293215315, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_Name
+      value: Dungeon Tileset - Portas_5 (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+--- !u!4 &1561663546 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+  m_PrefabInstance: {fileID: 1561663545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1565643610
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 958904623}
+    m_Modifications:
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 38.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0016161557
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558764742293215315, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+      propertyPath: m_Name
+      value: Dungeon Tileset - Portas_5 (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+--- !u!4 &1565643611 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1117829191237941777, guid: 9c7fcfa9c8171344384bd2c780cc1a4b, type: 3}
+  m_PrefabInstance: {fileID: 1565643610}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1571163981
 GameObject:
   m_ObjectHideFlags: 0
@@ -5843,6 +7308,90 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 915942400106451622, guid: 97e0ce8c37a4f6749a72b5a5bf524721, type: 3}
   m_PrefabInstance: {fileID: 1637948309}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1639390276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1639390277}
+  - component: {fileID: 1639390278}
+  m_Layer: 0
+  m_Name: Dungeon Tileset - Portas_11 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1639390277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639390276}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 25.470001, y: 28.249, z: -0.0016161557}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 958904623}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1639390278
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639390276}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1348221498, guid: 1273df380164d964cb231c69a76b1702, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.5, y: 2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1653526074
 GameObject:
   m_ObjectHideFlags: 0
@@ -6120,6 +7669,90 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
+--- !u!1 &1692407902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1692407903}
+  - component: {fileID: 1692407904}
+  m_Layer: 0
+  m_Name: Dungeon Tileset - Portas_6 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1692407903
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692407902}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 26.964, y: 28.249, z: -0.0016161557}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 958904623}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1692407904
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692407902}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1115165082, guid: 1273df380164d964cb231c69a76b1702, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.25, y: 2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1001 &1716239264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6714,6 +8347,90 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!1 &1855348288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1855348289}
+  - component: {fileID: 1855348290}
+  m_Layer: 0
+  m_Name: Dungeon Tileset - Portas_11 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1855348289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855348288}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.464, y: 18.243, z: -0.0016161557}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 958904623}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1855348290
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855348288}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1348221498, guid: 1273df380164d964cb231c69a76b1702, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.5, y: 2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1861129794
 GameObject:
   m_ObjectHideFlags: 0
@@ -6938,6 +8655,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1868570148}
   m_CullTransparentMesh: 1
+--- !u!1001 &1876941650
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 958904623}
+    m_Modifications:
+    - target: {fileID: 3750242108377329956, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_Name
+      value: Dungeon Tileset - Portas_0 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 48.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 42.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0016161557
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+--- !u!4 &1876941651 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+  m_PrefabInstance: {fileID: 1876941650}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1904029044
 GameObject:
   m_ObjectHideFlags: 0
@@ -7001,6 +8780,68 @@ MonoBehaviour:
   m_Spacing: {x: -10, y: 0}
   m_Constraint: 2
   m_ConstraintCount: 1
+--- !u!1001 &1958581947
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 958904623}
+    m_Modifications:
+    - target: {fileID: 3750242108377329956, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_Name
+      value: Dungeon Tileset - Portas_0 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.713
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 42.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0016161557
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+--- !u!4 &1958581948 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+  m_PrefabInstance: {fileID: 1958581947}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1977889698
 GameObject:
   m_ObjectHideFlags: 0
@@ -7237,6 +9078,68 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &2028787671
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 958904623}
+    m_Modifications:
+    - target: {fileID: 3750242108377329956, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_Name
+      value: Dungeon Tileset - Portas_0 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 32.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0016161557
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+--- !u!4 &2028787672 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7758345773696529668, guid: e1c111184e5c1bf4f81da8334b9339f0, type: 3}
+  m_PrefabInstance: {fileID: 2028787671}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2030526112
 GameObject:
   m_ObjectHideFlags: 0
@@ -7321,6 +9224,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 958904623}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2047793769
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 958904623}
+    m_Modifications:
+    - target: {fileID: 4383730793895845644, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_Name
+      value: Dungeon Tileset - Portas_10 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.464
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 28.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0016161557
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+--- !u!4 &2047793770 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4398957095585375207, guid: 0fd906c60f0b3e345bad236b8d17f2fb, type: 3}
+  m_PrefabInstance: {fileID: 2047793769}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2057412647
 GameObject:
   m_ObjectHideFlags: 0

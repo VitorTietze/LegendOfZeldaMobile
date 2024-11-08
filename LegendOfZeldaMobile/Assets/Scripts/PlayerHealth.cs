@@ -120,7 +120,7 @@ public class PlayerHealth : MonoBehaviour
     private Transform enemyTransform;
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.TryGetComponent<Enemy>(out Enemy enemy)){
+        if (other.transform.parent.gameObject.TryGetComponent<Enemy>(out Enemy enemy)){
             enemyTransform = other.transform;
             touchingEnemy = true;
             if (!immune){

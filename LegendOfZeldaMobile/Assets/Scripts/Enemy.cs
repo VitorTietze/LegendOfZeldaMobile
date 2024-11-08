@@ -17,14 +17,14 @@ public abstract class Enemy : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        //Debug.Log($"{gameObject} took {damage} damage");
+        Debug.Log($"{gameObject} took {damage} damage.");
         health -= damage;
         if (health <= 0){
             Die();
         }
     }
 
-    private void Die()
+    protected virtual void Die()
     {
         Destroy(gameObject);
     }

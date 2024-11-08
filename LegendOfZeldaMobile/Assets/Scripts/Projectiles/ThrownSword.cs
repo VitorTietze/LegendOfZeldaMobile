@@ -30,16 +30,17 @@ public class ThrownSword : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void DealDamage(GameObject hitObject)
+    /* private void DealDamage(GameObject hitObject)
     {
         hitObject.GetComponent<Enemy>()?.TakeDamage(damage);
-    }
+    } */
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Enemies"))
+        if (other.gameObject.TryGetComponent<Enemy>(out Enemy enemy))
         {
-            DealDamage(other.gameObject);
+            //DealDamage(other.gameObject);
+            enemy.TakeDamage(damage);
             ConsumeSword();
         }
 

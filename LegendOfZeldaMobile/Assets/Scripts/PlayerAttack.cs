@@ -9,9 +9,9 @@ public class PlayerAttack : MonoBehaviour
     private PlayerMovement playerMovement;
     private PlayerHealth playerHealth;
     private GameObject thrownSword;
-    private float damage = 3f; // arbitrary
-    private float width = 1.5f;
-    private float depth = 1f;
+    private float damage = 1f; // arbitrary
+    private float width = 1.1f;
+    private float depth = 1.55f;
     private Vector2 direction;
     private LayerMask layerMask;
 
@@ -20,7 +20,7 @@ public class PlayerAttack : MonoBehaviour
         playerMovement = GetComponent<PlayerMovement>();
         playerHealth = GetComponent<PlayerHealth>();
         thrownSword = Resources.Load<GameObject>("Prefabs/ThrownSword");
-        layerMask = LayerMask.NameToLayer("Enemies");
+        layerMask = LayerMask.GetMask("Enemies", "FlyingEnemies");
     }
 
     private void Update()
@@ -36,7 +36,7 @@ public class PlayerAttack : MonoBehaviour
         direction = new Vector2(playerMovement.horizontal, playerMovement.vertical);
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         Vector2 boxCenter = (Vector2)transform.position + direction * depth / 2;
-        Vector2 halfExtents = new Vector2(width / 2, depth / 2);
+        Vector2 halfExtents = new Vector2(depth / 2, width / 2);
         Collider2D[] hitColliders = Physics2D.OverlapBoxAll(boxCenter, halfExtents, angle, layerMask);
         DrawBox(angle, boxCenter, halfExtents);
         

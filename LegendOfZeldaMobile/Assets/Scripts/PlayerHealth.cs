@@ -47,6 +47,7 @@ public class PlayerHealth : MonoBehaviour
     private void Die()
     {
         // animation? + restart game
+        GameManager.instance.GameOver();
     }
 
     public void HealHeart(float amount)

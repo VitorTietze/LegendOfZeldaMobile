@@ -12,7 +12,6 @@ public class Key : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("KEY");
         if (other.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
             GetPicked();

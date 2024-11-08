@@ -13,9 +13,15 @@ public class Keese : Enemy
         damage = 0.5f;
     }
 
-    private void OnEnable()
+    private Coroutine movementPattern;
+    private void OnBecameVisible()
     {
-        StartCoroutine(MovementPattern());
+        movementPattern = StartCoroutine(MovementPattern());
+    }
+
+    private void OnBecameInvisible()
+    {
+        StopCoroutine(movementPattern);
     }
 
     private (float min, float max) movementChangeIntervalRange = (0.9f, 1.8f);

@@ -11,7 +11,7 @@ public class PlayerHealth : MonoBehaviour
     private int maxHealth = 3;
     private float health;
     public bool isFullHealth => health == maxHealth;
-    private bool immune;
+    public static bool immune;
     private bool touchingEnemy;
 
     private int keys;
@@ -71,7 +71,7 @@ public class PlayerHealth : MonoBehaviour
     private IEnumerator ImmunityTime()
     {
         immune = true;
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1f);
         immune = false;
 
         if (touchingEnemy){

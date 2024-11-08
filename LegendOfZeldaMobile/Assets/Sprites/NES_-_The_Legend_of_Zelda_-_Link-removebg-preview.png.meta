@@ -1,0 +1,1825 @@
+fileFormatVersion: 2
+guid: 2ad86d854f5ca9e4b870a0125894596e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 302
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa58fc9e854d1049a75fdcb9d4cf0be
+      internalID: 550566112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 302
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56797e48f99fd44d8f973a8be31c081
+      internalID: 869262788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 302
+        width: 56
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c406465239ae449ba61c554d44fbb8
+      internalID: -253764128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 302
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18031c1ceb849d46baddce6b474554e
+      internalID: 912548085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 302
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56126bc80415ed04693b3bd34dc0f965
+      internalID: 781563243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 302
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9fe80b7507cf74d847d96a6f7914a4
+      internalID: 439632889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 302
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4e9fc01fb7d5e4488362f8d9c39439
+      internalID: -1229683526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 302
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bb775c9ec26bb4f985db9e4b850472
+      internalID: 882682187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 302
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f4cb4c71c2e174694f6569a497ae0d
+      internalID: 1413342229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 302
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8448b33ceb5e44fb82ee75dce8a57a
+      internalID: 1628846253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 303
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92347fb3ad439f8429c4c121017a59af
+      internalID: -1412594355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 302
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3937331d417bfe84494f94607fbf8d65
+      internalID: 1270204160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 302
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618c7612fbf89c2459084b87814b1032
+      internalID: -1943290688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 302
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e6831ea07d05649ae25cd8588e2ad6
+      internalID: -65238505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 301
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b8310293ea91449ad4c6c56438c8cd
+      internalID: -23187204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 302
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d220d43ac454ec04f98f132c87aea16e
+      internalID: -1587496386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 302
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52675f67d4d558c44bcdfbd63d05faa3
+      internalID: 566711355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 301
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f95aeb1f4731c34189beb488c1dfd1a
+      internalID: -116256636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 302
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c3f0dcd6fb2f74c8f80d6ad28d1c12
+      internalID: -1306636683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 302
+        width: 34
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f413f1e2359aa1443953a2b5a059ee8d
+      internalID: 2134608045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 158
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e01f08eb045ffc4a9cfcf461e16f5f5
+      internalID: -2094670664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 283
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4a05b61afaa2a47a7e9e0db264085a
+      internalID: 1506608173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 282
+        width: 69
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c8c4a588b9a084dbef7b1f480fb90d
+      internalID: -769060773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 43
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d239513a5d0fdde4fbbac6abbda1646c
+      internalID: 2139855340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 266
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b451842a8e6f44b9bbfedde23677ab
+      internalID: -1106372091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 266
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1317d37ab52974d8501eace04fb511
+      internalID: -984218310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 266
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4186f962b6c095d42bbb546651085bc1
+      internalID: 1252065480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 266
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc10fc28a52b894e81ac8eefde33165
+      internalID: -1031273887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 266
+        width: 35
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594df3a5a89f4d340a35fa5d700fbcfa
+      internalID: -953798540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 265
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d9d6c60fdac7542b3488719ffa1250
+      internalID: -390338333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 266
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863186de635d64f40bd23bb09e2af837
+      internalID: -765593033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 266
+        width: 35
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b75514c775940e428431704dac33cc9
+      internalID: -417666345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 265
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de3f8e1dff8ad24bba47197f0071e2a
+      internalID: 1731886536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 266
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce79969739488524aa9ab158a3bfb203
+      internalID: 1689102927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 266
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab8a7b4e39de9644aab92a17ca5c74d
+      internalID: -227202960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 90
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb8417ad2ef6f243afba002b577a75b
+      internalID: -1717190862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 236
+        width: 69
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dcc4a687e8fe2b48b13a6334b2f5b84
+      internalID: -1802781970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 236
+        width: 69
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2c0b87bc686384d9b03a814769127c
+      internalID: 1852383524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 235
+        width: 70
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591bf1cde5a28d54ebdf36a6a912c4b2
+      internalID: -827644413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 215
+        width: 91
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb72bc37a3dd09145a35711256906120
+      internalID: -1962209712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 215
+        width: 90
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff299432257227448cf594ed7419c4e
+      internalID: -577092861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 215
+        width: 90
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a54b95c1fcc554292518315207ce8b
+      internalID: -1694730525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 184
+        width: 69
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f73917f08d7b54da67e7356545010b
+      internalID: -1704109946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 184
+        width: 69
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a519541914631b46a185632ad739839
+      internalID: 531745753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 184
+        width: 69
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5621ac00826e874580279e21a894efb
+      internalID: -719091026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 159
+        width: 79
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b0fade77a1c7747975e90e03a52d93
+      internalID: 972263538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 139
+        width: 163
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e19914733a61241a52d0dfaae1097e
+      internalID: -1293890743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 158
+        width: 79
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f644a98798abe7b4394c0e1870e6adc2
+      internalID: -862442758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 139
+        width: 141
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599a57e29682cc54b867d28f2a11b380
+      internalID: -1265280427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66610fc89f84ea443aa5a358d765412a
+      internalID: -632097963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 128
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2c16d00e291744fb570995196a326e
+      internalID: -1814382357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc7fed87a6b85745a28547a4f52373a
+      internalID: 128348165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 128
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d63081b3f4f7084496daf912a693080
+      internalID: -579923902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 127
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48694ee23e871c9468fa83a75dc659af
+      internalID: 1212092636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 128
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55fd2329a8495f4ba5f51aeabb7c842
+      internalID: 781748613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 128
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadbbc21d10c79946aaf9fdae14dbdd8
+      internalID: -439393009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 128
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4b3e670a210b14cabde1b3e8e4729f
+      internalID: -851339552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 128
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a4538dd2d7658498254efdaaec8e40
+      internalID: -870603373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 128
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54ccc144154c4b42b7330dec0ea4463
+      internalID: 1275564096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 189
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9860a9e2eb92bb146914d35f90957aeb
+      internalID: 1000057612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 108
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccb37a9a73994348bfc0797a7afa396
+      internalID: -1233008190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 108
+        width: 68
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a4b1326382f5943b808b9453fa04e5
+      internalID: -1238624579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 109
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b1cfd4d9d09dd4a975e75e54195a9d
+      internalID: 1548986058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 109
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3575636d07efd594e9108868610a19e6
+      internalID: -446637097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ce3c61b62cfff40b0879c210120358
+      internalID: 167574953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 97
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4995a8868bb435e4180b672173299775
+      internalID: 1817829022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 97
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c83eb6e84c6cf43a18ad7736f9a8dc
+      internalID: -1352573359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 97
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ebfd3dceafb934182a34341ff8ce25
+      internalID: 2034315059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 97
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f6b3f0049f07f46bf688155578193c
+      internalID: -1896505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 97
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53beaaf809c2abe46a55e7a972882fb5
+      internalID: 803075112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 97
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffad49283dd42f244ada8b5d7cce2f1c
+      internalID: -1185627789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 97
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfff031f7a43f845b510d8944b0bc46
+      internalID: 244464197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 96
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc88b72c4ea22845a967577d63745fa
+      internalID: -2078645091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 247
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae3f480583d5a447b6f06e508438ea5
+      internalID: 302045218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 58
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7084712fef8992541a9b55489dc8c314
+      internalID: 112471833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 225
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e34276f10aeb7841bf8623129c4f253
+      internalID: -79911132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_0: 550566112
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_1: 869262788
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_10: -1412594355
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_11: 1270204160
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_12: -1943290688
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_13: -65238505
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_14: -23187204
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_15: -1587496386
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_16: 566711355
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_17: -116256636
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_18: -1306636683
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_19: 2134608045
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_2: -253764128
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_20: -2094670664
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_21: 1506608173
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_22: -769060773
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_23: 2139855340
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_24: -1106372091
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_25: -984218310
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_26: 1252065480
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_27: -1031273887
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_28: -953798540
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_29: -390338333
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_3: 912548085
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_30: -765593033
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_31: -417666345
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_32: 1731886536
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_33: 1689102927
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_34: -227202960
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_35: -1717190862
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_36: -1802781970
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_37: 1852383524
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_38: -827644413
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_39: -1962209712
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_4: 781563243
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_40: -577092861
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_41: -1694730525
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_42: -1704109946
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_43: 531745753
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_44: -719091026
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_45: 972263538
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_46: -1293890743
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_47: -862442758
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_48: -1265280427
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_49: -632097963
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_5: 439632889
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_50: -1814382357
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_51: 128348165
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_52: -579923902
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_53: 1212092636
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_54: 781748613
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_55: -439393009
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_56: -851339552
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_57: -870603373
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_58: 1275564096
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_59: 1000057612
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_6: -1229683526
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_60: -1233008190
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_61: -1238624579
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_62: 1548986058
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_63: -446637097
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_64: 167574953
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_65: 1817829022
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_66: -1352573359
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_67: 2034315059
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_68: -1896505
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_69: 803075112
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_7: 882682187
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_70: -1185627789
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_71: 244464197
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_72: -2078645091
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_73: 302045218
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_74: 112471833
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_75: -79911132
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_8: 1413342229
+      NES_-_The_Legend_of_Zelda_-_Link-removebg-preview_9: 1628846253
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

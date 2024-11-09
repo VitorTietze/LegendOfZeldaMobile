@@ -27,17 +27,30 @@ public class Stalfos : Enemy
     private (float min, float max) movementChangeIntervalRange = (1.2f, 1.5f);
     private IEnumerator MovementPattern()
     {
+        yield return new WaitForSeconds(Random.Range(0f, 0.35f));
+
         float interval;
         Vector2 randomDirection;
         while (true)
         {
-            randomDirection = new Vector2((int)Random.Range(-1, 1), (int)Random.Range(-1, 1)).normalized;
+            randomDirection = new Vector2(Random.Range(-1, 1), Random.Range(-1, 1)).normalized;
+            if (Mathf.Abs(randomDirection.x) > Mathf.Abs(randomDirection.y)){
+                randomDirection = new Vector2(1f, 0f);
+            } else {
+                randomDirection = new Vector2(0f, 1f);
+            }
             rb.velocity = randomDirection * speed;
 
             interval = Random.Range(movementChangeIntervalRange.min, movementChangeIntervalRange.max);
             yield return new WaitForSeconds(interval);
 
-            rb.velocity = (PlayerHealth.player.position - transform.position).normalized * speed;
+            randomDirection = (PlayerHealth.player.position - transform.position).normalized;
+            if (Mathf.Abs(randomDirection.x) > Mathf.Abs(randomDirection.y)){
+                randomDirection = new Vector2(1f, 0f);
+            } else {
+                randomDirection = new Vector2(0f, 1f);
+            }
+            rb.velocity = randomDirection * speed;
 
             interval = Random.Range(movementChangeIntervalRange.min, movementChangeIntervalRange.max);
             yield return new WaitForSeconds(interval);

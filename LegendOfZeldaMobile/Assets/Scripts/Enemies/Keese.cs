@@ -27,6 +27,8 @@ public class Keese : Enemy
     private (float min, float max) movementChangeIntervalRange = (0.9f, 1.8f);
     private IEnumerator MovementPattern()
     {
+        yield return new WaitForSeconds(Random.Range(0f, 0.35f));
+
         float interval;
         Vector2 randomDirection;
         while (true)

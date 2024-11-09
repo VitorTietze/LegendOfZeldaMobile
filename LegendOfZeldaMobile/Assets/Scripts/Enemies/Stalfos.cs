@@ -31,7 +31,7 @@ public class Stalfos : Enemy
         Vector2 randomDirection;
         while (true)
         {
-            randomDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
+            randomDirection = new Vector2((int)Random.Range(-1, 1), (int)Random.Range(-1, 1)).normalized;
             rb.velocity = randomDirection * speed;
 
             interval = Random.Range(movementChangeIntervalRange.min, movementChangeIntervalRange.max);

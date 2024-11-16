@@ -23,14 +23,14 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        Time.timeScale = 0;
         gameOverScreen.gameObject.SetActive(true);
+        Time.timeScale = 0;
     }
 
     public void FinalScreen()
     {
-        Time.timeScale = 0;
         finalScreen.gameObject.SetActive(true);
+        Time.timeScale = 0;
     }
 
     public void Restart()

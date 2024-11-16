@@ -8,17 +8,22 @@ public class PlayerAttack : MonoBehaviour
 {
     private PlayerMovement playerMovement;
     private PlayerHealth playerHealth;
+    private AnimatedSpritePlus animatedPlus;
     private GameObject thrownSword;
     private float damage = 1f; // arbitrary
+    public float attackTime = 0.25f;
     private float width = 1.1f;
     private float depth = 1.55f;
     private Vector2 direction;
     private LayerMask layerMask;
+    public bool isAttacking;
 
     private void Awake()
     {
         playerMovement = GetComponent<PlayerMovement>();
         playerHealth = GetComponent<PlayerHealth>();
+        animatedPlus = transform.Find("Sprite").GetComponent<AnimatedSpritePlus>();
+
         thrownSword = Resources.Load<GameObject>("Prefabs/ThrownSword");
         layerMask = LayerMask.GetMask("Enemies", "FlyingEnemies");
     }
@@ -27,12 +32,16 @@ public class PlayerAttack : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            animatedPlus.attacking = true;
+            isAttacking = true;
             SwordAttack();
         }
     }
 
     public void SwordAttack()
     {
+        StartCoroutine(StopAttacking());
+
         direction = new Vector2(playerMovement.horizontal, playerMovement.vertical);
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         Vector2 boxCenter = (Vector2)transform.position + direction * depth / 2;
@@ -48,6 +57,13 @@ public class PlayerAttack : MonoBehaviour
         if (playerHealth.isFullHealth){
             ThrowSword();
         }
+    }
+
+    private IEnumerator StopAttacking()
+    {
+        yield return new WaitForSeconds(attackTime);
+        animatedPlus.attacking = false;
+        isAttacking = false;
     }
 
     private void DrawBox(float angle, Vector2 boxCenter, Vector2 halfExtents)

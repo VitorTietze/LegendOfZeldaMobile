@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private PlayerAttack playerAttack;
+    private AnimatedSpritePlus animatedPlus;
     [SerializeField] private float movementTime;
     [SerializeField] private float movementDistance;
     [SerializeField] private FixedJoystick joystick;
@@ -16,7 +17,6 @@ public class PlayerMovement : MonoBehaviour
     public int horizontal;
     public int vertical;
 
-    //[SerializeField] private Rigidbody2D cameraRigidbody;
     [SerializeField] new private Transform camera;
     [SerializeField] private Vector2 roomIntervals;
     [SerializeField] private float doorMovements;
@@ -27,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         playerAttack = GetComponent<PlayerAttack>();
+        animatedPlus = transform.Find("Sprite").GetComponent<AnimatedSpritePlus>();
         rigidbody = GetComponent<Rigidbody2D>();
 
         roomsLayer = LayerMask.NameToLayer("Rooms");
@@ -62,20 +63,25 @@ public class PlayerMovement : MonoBehaviour
             horizontal = 0;
         }
         
-        /* if (!isMoving && !playerAttack.isAttacking){
-            animator.SetInt("horizontal", horizontal);
-            animator.SetInt("vertical", vertical);
-        } */
+        if (!isMoving && !playerAttack.isAttacking){
+            //animator.SetInt("horizontal", horizontal);
+            //animator.SetInt("vertical", vertical);
+
+            animatedPlus.horizontal = horizontal;
+            animatedPlus.vertical = vertical;
+        }
     }
 
     private IEnumerator Move()
     {
+        animatedPlus.running = true;
         isMoving = true;
         movementDirection = new Vector2((float)horizontal, (float)vertical).normalized;
         rigidbody.velocity = movementDirection * movementDistance / movementTime;
         yield return new WaitForSeconds(movementTime);
         rigidbody.velocity = Vector2.zero;
         isMoving = false;
+        animatedPlus.running = false;
     }
 
     [SerializeField] private Transform focusedRoom;
@@ -104,6 +110,7 @@ public class PlayerMovement : MonoBehaviour
         rigidbody.velocity = Vector2.zero;
 
         isMoving = false;
+        animatedPlus.running = false;
         PlayerHealth.immune = false;
     }
 
@@ -120,6 +127,7 @@ public class PlayerMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Doors")){
+            animatedPlus.running = true;
             isMoving = true;
             if (moveCoroutine != null) StopCoroutine(moveCoroutine);
             StartCoroutine(MoveThroughDoor(other.transform.position));

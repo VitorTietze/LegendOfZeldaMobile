@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
             ChangeDirection();
         }
 
-        if (!isMoving && inputDirection.magnitude > startMovementThreshold){
+        if (!isMoving && inputDirection.magnitude > startMovementThreshold && !playerAttack.isAttacking){
             moveCoroutine = StartCoroutine(Move());
         }
     }
@@ -89,6 +89,8 @@ public class PlayerMovement : MonoBehaviour
     {
         while (camera.position.x != focusedRoom.position.x || camera.position.y != focusedRoom.position.y)
         {
+            if (focusedRoom == null) break;
+
             Vector2 newPosition = Vector2.MoveTowards(
                 new Vector2(camera.position.x, camera.position.y),
                 new Vector2(focusedRoom.position.x, focusedRoom.position.y),
@@ -148,8 +150,11 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.layer == roomsLayer)
         {
             currentRooms.Remove(other.transform);
-            focusedRoom = currentRooms[0];
-            StartCoroutine(PanCamera());
+            if (currentRooms.Count > 0) focusedRoom = currentRooms[0];
+            
+            if (gameObject.activeSelf || gameObject.activeInHierarchy){
+                StartCoroutine(PanCamera());
+            }
         }
     }
 }

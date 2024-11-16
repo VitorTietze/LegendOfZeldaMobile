@@ -690,7 +690,7 @@ MonoBehaviour:
   - {fileID: 1529709843, guid: cd4e4cd50330b7149bfe5a849ce9b485, type: 3}
   - {fileID: -1569298166, guid: cd4e4cd50330b7149bfe5a849ce9b485, type: 3}
   - {fileID: -1518039435, guid: cd4e4cd50330b7149bfe5a849ce9b485, type: 3}
-  attackFramerate: 6
+  attackFramerate: 8
   updateInterval: 0.01
   horizontal: 0
   vertical: 1
@@ -5708,7 +5708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35c246a787a91dc46b679dde49c7a45e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.25
+  attackTime: 0.5
   isAttacking: 0
 --- !u!114 &635291990
 MonoBehaviour:
@@ -17946,7 +17946,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

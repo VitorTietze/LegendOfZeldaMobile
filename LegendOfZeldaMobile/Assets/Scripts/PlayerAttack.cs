@@ -30,16 +30,17 @@ public class PlayerAttack : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            animatedPlus.attacking = true;
-            isAttacking = true;
+        if (Input.GetKeyDown(KeyCode.Space)){
             SwordAttack();
         }
     }
 
     public void SwordAttack()
     {
+        if (isAttacking) return;
+
+        animatedPlus.attacking = true;
+        isAttacking = true;
         StartCoroutine(StopAttacking());
 
         direction = new Vector2(playerMovement.horizontal, playerMovement.vertical);
@@ -55,7 +56,7 @@ public class PlayerAttack : MonoBehaviour
         }
 
         if (playerHealth.isFullHealth){
-            ThrowSword();
+            Invoke(nameof(ThrowSword), 0.25f);
         }
     }
 
@@ -82,13 +83,10 @@ public class PlayerAttack : MonoBehaviour
         Debug.DrawLine(bottomLeft, topLeft, Color.red, 0.1f);
     }
 
-    private void ThrowSword()
+    public void ThrowSword()
     {
-        GameObject swordObj = Instantiate(thrownSword, transform.position, Quaternion.identity, transform);
+        Vector2 adjustedPosition = (Vector2)transform.position + direction * 0.7f;
+        GameObject swordObj = Instantiate(thrownSword, adjustedPosition, Quaternion.identity, transform);
         swordObj.GetComponent<ThrownSword>().Initialize(direction, damage);
-
-        /* GameObject boomerang = Resources.Load<GameObject>("Prefabs/EnemyBoomerang");
-        GameObject boomObj = Instantiate(boomerang, transform.position, Quaternion.identity, transform);
-        boomObj.GetComponent<EnemyBoomerang>().Initialize(direction, transform); */
     }
 }

@@ -99,43 +99,42 @@ public class AnimatedSpritePlus : MonoBehaviour
     }
 
     private IEnumerator UpdateStates()
-{
-    while (true)
     {
-        if (runningBuffer != running || horizontalBuffer != horizontal ||
-            verticalBuffer != vertical || attackingBuffer != attacking)
+        while (true)
         {
-            if (attacking){
-                if (vertical == 1){
-                    sprites = attackingUp;
-                } else if (vertical == -1){
-                    sprites = attackingDown;
-                } else if (horizontal == -1){
-                    sprites = attackingLeft;
-                } else if (horizontal == 1){
-                    sprites = attackingRight;
+            if (runningBuffer != running || horizontalBuffer != horizontal ||
+                verticalBuffer != vertical || attackingBuffer != attacking)
+            {
+                if (attacking){
+                    if (vertical == 1){
+                        sprites = attackingUp;
+                    } else if (vertical == -1){
+                        sprites = attackingDown;
+                    } else if (horizontal == -1){
+                        sprites = attackingLeft;
+                    } else if (horizontal == 1){
+                        sprites = attackingRight;
+                    }
+                } else {
+                    if (vertical == 1){
+                        sprites = running ? runningUp : idleUp;
+                    } else if (vertical == -1){
+                        sprites = running ? runningDown : idleDown;
+                    } else if (horizontal == -1){
+                        sprites = running ? runningLeft : idleLeft;
+                    } else if (horizontal == 1){
+                        sprites = running ? runningRight : idleRight;
+                    }
                 }
-            } else {
-                if (vertical == 1){
-                    sprites = running ? runningUp : idleUp;
-                } else if (vertical == -1){
-                    sprites = running ? runningDown : idleDown;
-                } else if (horizontal == -1){
-                    sprites = running ? runningLeft : idleLeft;
-                } else if (horizontal == 1){
-                    sprites = running ? runningRight : idleRight;
-                }
+
+                horizontalBuffer = horizontal;
+                verticalBuffer = vertical;
+                runningBuffer = running;
+                attackingBuffer = attacking;
+                frame = 0;
             }
 
-            horizontalBuffer = horizontal;
-            verticalBuffer = vertical;
-            runningBuffer = running;
-            attackingBuffer = attacking;
-            frame = 0;
+            yield return new WaitForSeconds(updateInterval);
         }
-
-        yield return new WaitForSeconds(updateInterval);
     }
-}
-
 }

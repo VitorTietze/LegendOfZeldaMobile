@@ -6,7 +6,7 @@ public class EnemyBoomerang : MonoBehaviour
 {
     [SerializeField] private new Rigidbody2D rigidbody;
     private float speed = 2.5f;
-    private float damage;
+    private float damage = 1f;
     private float flyingTime = 7f;
     private bool returning = false;
 
@@ -19,6 +19,21 @@ public class EnemyBoomerang : MonoBehaviour
         rigidbody.velocity = direction * speed;
         thrower = _thrower;
         StartCoroutine(CheckTrajectory());
+        StartCoroutine(SpinSprite());
+    }
+
+    private float framerate = 4f;
+    private float frametime => 1f / framerate;
+    private IEnumerator SpinSprite()
+    {
+        Transform spriteTransform = transform.Find("Sprite");
+
+        while (true)
+        {
+            spriteTransform.rotation *= Quaternion.Euler(0f, 0f, 90f);
+
+            yield return new WaitForSeconds(frametime);
+        }
     }
 
     private void Return()
@@ -41,7 +56,7 @@ public class EnemyBoomerang : MonoBehaviour
         while (true)
         {
             if (Vector2.Distance(transform.position, spawnPosition) < speed * 0.2f){
-                // update thrower state
+                thrower.GetComponent<RedGoriya>().BoomerangReturned();
                 Destroy(gameObject);
             }
             yield return null;
@@ -50,9 +65,16 @@ public class EnemyBoomerang : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Walls"))
-        {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Walls")){
             if (!returning) Return();
+        }
+
+        Transform parentOther = other.transform.parent;
+        if (parentOther != null){
+            if (parentOther.gameObject.TryGetComponent<PlayerHealth>(out PlayerHealth playerHealth)){
+                playerHealth.TakeDamage(damage);
+                if (!returning) Return();
+            }
         }
     }
 }

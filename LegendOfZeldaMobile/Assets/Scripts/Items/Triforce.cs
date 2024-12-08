@@ -2,19 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Triforce : MonoBehaviour
+public class Triforce : Item
 {
-    private void GetPicked()
+    protected override void GetPicked()
     {
         GameManager.instance.FinalScreen();
         Destroy(gameObject);
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Player"))
-        {
-            GetPicked();
-        }
     }
 }

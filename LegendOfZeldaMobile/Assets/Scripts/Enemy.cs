@@ -13,7 +13,11 @@ public abstract class Enemy : MonoBehaviour
     protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        SetStartingStats();
     }
+
+    protected abstract void SetStartingStats();
 
     public void TakeDamage(float damage)
     {
@@ -27,5 +31,25 @@ public abstract class Enemy : MonoBehaviour
     protected virtual void Die()
     {
         Destroy(gameObject);
+    }
+
+    protected Coroutine movementPattern;
+    protected virtual void OnBecameVisible()
+    {
+        movementPattern = StartCoroutine(MovementPattern());
+    }
+
+    private void OnBecameInvisible()
+    {
+        StopCoroutine(movementPattern);
+    }
+
+    protected abstract IEnumerator MovementPattern();
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Walls")){
+            rb.velocity *= -1;
+        }
     }
 }

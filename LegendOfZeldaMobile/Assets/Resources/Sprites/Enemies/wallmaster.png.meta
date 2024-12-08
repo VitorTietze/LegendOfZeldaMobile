@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b6df6951b1a14b44abc82cb7be71f548
+guid: 719bc6e9334be6749b5fc4c74a26f930
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,55 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 3DS - The Legend of Zelda Majoras Mask 3D - UI_0
+      name: wallmaster_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 144
-        width: 57
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09201bdfe0826d449a8ce2bdcd908eb7
-      internalID: -1739402241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 3DS - The Legend of Zelda Majoras Mask 3D - UI_1
-      rect:
-        serializedVersion: 2
-        x: 291
-        y: 41
-        width: 50
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c93a0cdf7b4ccb4c9a0f083de7f8e97
-      internalID: 135223092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pause pressed
-      rect:
-        serializedVersion: 2
-        x: 343
+        x: 0
         y: 0
-        width: 20
-        height: 13
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f58f7c7ed8305e64ba8a18e10dce68cd
-      internalID: 1205762905
+      spriteID: 15b81cd448e3eec4ea1c6124515efd57
+      internalID: -538048518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pause unpressed
+      name: wallmaster_1
       rect:
         serializedVersion: 2
-        x: 367
+        x: 17
         y: 0
-        width: 18
-        height: 13
+        width: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d66568e30c1c3034989f6a19ef0881b2
-      internalID: -2096076302
+      spriteID: 83caecf23d8a6e4448a877f2160a99bf
+      internalID: 357788910
       vertices: []
       indices: 
       edges: []
@@ -204,10 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      3DS - The Legend of Zelda Majoras Mask 3D - UI_0: -1739402241
-      3DS - The Legend of Zelda Majoras Mask 3D - UI_1: 135223092
-      pause pressed: 1205762905
-      pause unpressed: -2096076302
+      wallmaster_0: -538048518
+      wallmaster_1: 357788910
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

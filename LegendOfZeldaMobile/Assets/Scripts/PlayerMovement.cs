@@ -147,6 +147,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
+        if (this == null || this.gameObject == null) return;
+        
         if (other.gameObject.layer == roomsLayer)
         {
             currentRooms.Remove(other.transform);

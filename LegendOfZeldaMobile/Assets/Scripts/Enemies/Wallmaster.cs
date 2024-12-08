@@ -2,18 +2,48 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Stalfos : Enemy
+public class Wallmaster : Enemy
 {
+    [SerializeField] private Vector2 startingDirection;
+
     protected override void SetStartingStats()
     {
         health = 2f;
-        speed = 1.7f;
+        speed = 1.5f;
         damage = 1f;
     }
 
-    private (float min, float max) movementChangeIntervalRange = (1.2f, 1.5f);
+    protected override void OnBecameVisible()
+    {
+        StartCoroutine(CheckIfLinkClose());
+        //movementPattern = StartCoroutine(MovementPattern());
+    }
+
+    private float distanceThreshold = 3.5f; // arbitrary
+    private float distanceToExitWall = 1.5f; // arbitrary
+    private float timeToExitWall => distanceToExitWall / speed;
+    private Transform link => GameManager.instance.link;
+    private IEnumerator CheckIfLinkClose()
+    {
+        while (Vector2.Distance(link.position, transform.position) > distanceThreshold)
+        {
+            yield return new WaitForSeconds(0.2f);
+        }
+
+        Vector3 startingDirection2D = new Vector3(startingDirection.x, startingDirection.y, 0f);
+        float angle = Mathf.Atan2(startingDirection2D.y, startingDirection2D.x) * Mathf.Rad2Deg;
+        transform.Find("Sprite").rotation = Quaternion.Euler(0f, 0f, angle-90);
+
+        rb.velocity = startingDirection * speed;
+        yield return new WaitForSeconds(timeToExitWall);
+        movementPattern = StartCoroutine(MovementPattern());
+    }
+
+    private (float min, float max) movementChangeIntervalRange = (1.5f, 1.9f);
     protected override IEnumerator MovementPattern()
     {
+        StartCoroutine(EnableCollider());
+
         yield return new WaitForSeconds(Random.Range(0f, 0.35f));
 
         float interval;
@@ -58,5 +88,13 @@ public class Stalfos : Enemy
             interval = Random.Range(movementChangeIntervalRange.min, movementChangeIntervalRange.max);
             yield return new WaitForSeconds(interval);
         }
+    }
+
+    private float timeUntilEnablesCollider = 3f;
+    private IEnumerator EnableCollider()
+    {
+        yield return new WaitForSeconds(timeUntilEnablesCollider);
+
+        GetComponent<CircleCollider2D>().enabled = true;
     }
 }

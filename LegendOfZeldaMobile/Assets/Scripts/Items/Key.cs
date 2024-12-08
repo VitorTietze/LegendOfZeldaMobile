@@ -2,19 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Key : MonoBehaviour
+public class Key : Item
 {
-    private void GetPicked()
+    protected override void GetPicked()
     {
         PlayerHealth.player.GetComponent<PlayerHealth>().ChangeKeyAmount(1);
         Destroy(gameObject);
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Player"))
-        {
-            GetPicked();
-        }
     }
 }

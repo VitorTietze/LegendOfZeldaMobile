@@ -36,12 +36,13 @@ public class PlayerHealth : MonoBehaviour
         UpdateHearts();
     }
 
-    private void TakeDamage(float damage)
+    public void TakeDamage(float damage)
     {
+        if (immune) return;
         health = Mathf.Max(health - damage, 0);
         UpdateHearts();
         if (health == 0) Die();
-        else StartCoroutine(ImmunityTime());
+        else StartCoroutine(ImmunityTime(1.5f));
     }
 
     private void Die()
@@ -83,10 +84,10 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    private IEnumerator ImmunityTime()
+    private IEnumerator ImmunityTime(float duration = 1f)
     {
         immune = true;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(duration);
         immune = false;
 
         if (touchingEnemy){
@@ -120,7 +121,7 @@ public class PlayerHealth : MonoBehaviour
     private Transform enemyTransform;
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.transform.parent.gameObject.TryGetComponent<Enemy>(out Enemy enemy)){
+        if (other.transform.parent?.gameObject.TryGetComponent<Enemy>(out Enemy enemy) == true){
             enemyTransform = other.transform;
             touchingEnemy = true;
             if (!immune){

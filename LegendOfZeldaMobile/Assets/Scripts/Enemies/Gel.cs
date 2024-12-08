@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Keese : Enemy
+public class Gel : Enemy
 {
     protected override void SetStartingStats()
     {
         health = 1f;
-        speed = 1.5f;
-        damage = 0.5f;
+        speed = 0.5f;
+        damage = 1f;
     }
 
-    private (float min, float max) movementChangeIntervalRange = (0.9f, 1.8f);
+    private (float min, float max) movementChangeIntervalRange = (0.7f, 1.5f);
     protected override IEnumerator MovementPattern()
     {
         yield return new WaitForSeconds(Random.Range(0f, 0.35f));
@@ -26,7 +26,12 @@ public class Keese : Enemy
             interval = Random.Range(movementChangeIntervalRange.min, movementChangeIntervalRange.max);
             yield return new WaitForSeconds(interval);
 
-            rb.velocity = (PlayerHealth.player.position - transform.position).normalized * speed;
+            Vector2 directionToPlayer = (PlayerHealth.player.position - transform.position).normalized;
+            float jiggleFactor = Random.Range(-0.2f, 0.2f);
+            Vector2 jigglyDirection = directionToPlayer + new Vector2(jiggleFactor, jiggleFactor);
+            jigglyDirection = jigglyDirection.normalized;
+
+            rb.velocity = jigglyDirection * speed;
 
             interval = Random.Range(movementChangeIntervalRange.min, movementChangeIntervalRange.max);
             yield return new WaitForSeconds(interval);

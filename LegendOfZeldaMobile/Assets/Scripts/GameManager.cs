@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
+    public Transform link;
+    public Transform pauseScreen;
     public Transform gameOverScreen;
     public Transform finalScreen;
 
@@ -19,6 +21,19 @@ public class GameManager : MonoBehaviour
 
         instance = this;
         DontDestroyOnLoad(gameObject);
+    }
+
+    private bool paused;
+    public void PressPause()
+    {
+        paused = !paused;
+        pauseScreen.gameObject.SetActive(paused);
+        Time.timeScale = paused ? 0 : 1;
+    }
+
+    public void QuitApplication()
+    {
+        Application.Quit();
     }
 
     public void GameOver()

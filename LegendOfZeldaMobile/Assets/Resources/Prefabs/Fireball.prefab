@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 342612564481597237}
   - component: {fileID: 2077358869944922190}
   - component: {fileID: 5151209842487644834}
-  - component: {fileID: 433827763276239875}
+  - component: {fileID: 8538082760515338808}
   m_Layer: 0
-  m_Name: EnemyBoomerang
+  m_Name: Fireball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,7 +107,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
---- !u!114 &433827763276239875
+--- !u!114 &8538082760515338808
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4123471264446155015}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a4c148cee2c8c14cb4a0f14e4976a9a, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c74f778b3488644bab36a63c068949f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 2077358869944922190}
@@ -192,8 +192,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: f90968f79d2414741a0c369523018b9c, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 061c7b69e19b9de4c84e685bc928926c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

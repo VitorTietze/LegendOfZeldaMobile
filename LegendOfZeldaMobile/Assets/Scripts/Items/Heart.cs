@@ -2,19 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Heart : MonoBehaviour
+public class Heart : Item
 {
-    private void GetPicked()
+    protected override void GetPicked()
     {
         PlayerHealth.player.GetComponent<PlayerHealth>().HealHeart(1f);
         Destroy(gameObject);
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Player"))
-        {
-            GetPicked();
-        }
     }
 }

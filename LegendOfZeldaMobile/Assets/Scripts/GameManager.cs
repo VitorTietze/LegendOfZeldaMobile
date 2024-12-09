@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public Transform link;
-    public GameObject canvas;
+    //public GameObject canvas;
     public Transform pauseScreen;
     public Transform gameOverScreen;
     public Transform finalScreen;
@@ -16,18 +16,20 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         if (instance != null && instance != this){
+            //Destroy(canvas);
             Destroy(gameObject);
             return;
         }
 
         instance = this;
+        //DontDestroyOnLoad(canvas);
         DontDestroyOnLoad(gameObject);
-        DontDestroyOnLoad(canvas);
     }
 
     private bool paused;
     public void PressPause()
     {
+        Debug.Log("Pause button pressed; Now paused is " + paused);
         paused = !paused;
         pauseScreen.gameObject.SetActive(paused);
         Time.timeScale = paused ? 0 : 1;
@@ -35,6 +37,7 @@ public class GameManager : MonoBehaviour
 
     public void QuitApplication()
     {
+        Debug.Log("QuitApplication");
         Application.Quit();
     }
 

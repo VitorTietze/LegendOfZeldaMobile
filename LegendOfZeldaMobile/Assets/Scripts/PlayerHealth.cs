@@ -12,7 +12,7 @@ public class PlayerHealth : MonoBehaviour
     private int maxHealth = 3;
     private float health;
     public bool isFullHealth => health == maxHealth;
-    public static bool immune;
+    public /* static */ bool immune;
     private bool touchingEnemy;
 
     private int keys;
@@ -34,6 +34,11 @@ public class PlayerHealth : MonoBehaviour
 
         health = maxHealth;
         UpdateHearts();
+    }
+
+    private void Start()
+    {
+        GameManager.instance.link = transform;
     }
 
     public void TakeDamage(float damage)

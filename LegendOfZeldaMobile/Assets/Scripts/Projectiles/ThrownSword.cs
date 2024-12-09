@@ -5,7 +5,7 @@ using UnityEngine;
 public class ThrownSword : MonoBehaviour
 {
     [SerializeField] private new Rigidbody2D rigidbody;
-    private float speed = 5.5f; // arbitrary
+    private float speed = 6.75f;
     private float damage;
     private float despawnTime = 4.5f;
 

@@ -10,10 +10,10 @@ public class PlayerAttack : MonoBehaviour
     private PlayerHealth playerHealth;
     private AnimatedSpritePlus animatedPlus;
     private GameObject thrownSword;
-    private float damage = 1f; // arbitrary
+    private float damage = 1f;
     public float attackTime = 0.25f;
-    private float width = 1.1f;
-    private float depth = 1.55f;
+    private float width = 1.25f;
+    private float depth = 2.5f;//1.85f; // 2.5 might be it tho
     private Vector2 direction;
     private LayerMask layerMask;
     public bool isAttacking;
@@ -52,7 +52,10 @@ public class PlayerAttack : MonoBehaviour
         
         foreach (Collider2D hit in hitColliders)
         {
-            hit.gameObject.GetComponent<Enemy>()?.TakeDamage(damage);
+            if (hit.gameObject.TryGetComponent<Enemy>(out Enemy enemy)){
+                enemy.TakeDamage(damage);
+                StartCoroutine(enemy.GetKnockedBack(direction));
+            }
         }
 
         if (playerHealth.isFullHealth){

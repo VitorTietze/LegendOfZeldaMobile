@@ -44,6 +44,17 @@ public abstract class Enemy : MonoBehaviour
         StopCoroutine(movementPattern);
     }
 
+    private float knockbackDistance = 1.5f;
+    private float knockbackDuration = 0.3f;
+    public IEnumerator GetKnockedBack(Vector2 direction)
+    {
+        StopCoroutine(movementPattern);
+        rb.velocity = direction * knockbackDistance / knockbackDuration;
+        yield return new WaitForSeconds(knockbackDuration);
+        rb.velocity = Vector2.zero;
+        movementPattern = StartCoroutine(MovementPattern());
+    }
+
     protected abstract IEnumerator MovementPattern();
 
     private void OnTriggerEnter2D(Collider2D other)

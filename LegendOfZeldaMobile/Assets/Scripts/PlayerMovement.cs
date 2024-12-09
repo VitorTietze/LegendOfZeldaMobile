@@ -104,7 +104,7 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator MoveThroughDoor(Vector2 doorPos)
     {
-        PlayerHealth.immune = true;
+        //PlayerHealth.immune = true;
 
         Vector2 direction = new Vector2((float)horizontal, (float)vertical).normalized;
         rigidbody.velocity = direction * movementDistance / movementTime;
@@ -113,7 +113,7 @@ public class PlayerMovement : MonoBehaviour
 
         isMoving = false;
         animatedPlus.running = false;
-        PlayerHealth.immune = false;
+        //PlayerHealth.immune = false;
     }
 
     public IEnumerator GetKnockedBack(Vector2 direction)

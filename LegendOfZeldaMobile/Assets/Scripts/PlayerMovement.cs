@@ -155,7 +155,9 @@ public class PlayerMovement : MonoBehaviour
             if (currentRooms.Count > 0) focusedRoom = currentRooms[0];
             
             if (gameObject.activeSelf || gameObject.activeInHierarchy){
-                StartCoroutine(PanCamera());
+                if (currentRooms.Count > 0){
+                    StartCoroutine(PanCamera());
+                }
             }
         }
     }

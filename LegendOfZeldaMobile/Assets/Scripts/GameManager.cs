@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public Transform link;
+    public GameObject canvas;
     public Transform pauseScreen;
     public Transform gameOverScreen;
     public Transform finalScreen;
@@ -21,6 +22,7 @@ public class GameManager : MonoBehaviour
 
         instance = this;
         DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(canvas);
     }
 
     private bool paused;
@@ -52,5 +54,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        gameOverScreen.gameObject.SetActive(false);
+        finalScreen.gameObject.SetActive(false);
     }
 }

@@ -91,15 +91,17 @@ public class PlayerHealth : MonoBehaviour
         immune = false;
 
         if (touchingEnemy){
-            TakeDamage(enemyTransform.GetComponent<Enemy>().damage);
+            if (enemyTransform != null){
+                TakeDamage(enemyTransform.GetComponent<Enemy>().damage);
 
-            Vector2 knockbackDirection = (transform.position - enemyTransform.position).normalized;
-            if (Mathf.Abs(knockbackDirection.x) > Mathf.Abs(knockbackDirection.y)){
-                knockbackDirection = new Vector2(Mathf.Sign(knockbackDirection.x), 0);
-            } else {
-                knockbackDirection = new Vector2(0, Mathf.Sign(knockbackDirection.y));
+                Vector2 knockbackDirection = (transform.position - enemyTransform.position).normalized;
+                if (Mathf.Abs(knockbackDirection.x) > Mathf.Abs(knockbackDirection.y)){
+                    knockbackDirection = new Vector2(Mathf.Sign(knockbackDirection.x), 0);
+                } else {
+                    knockbackDirection = new Vector2(0, Mathf.Sign(knockbackDirection.y));
+                }
+                StartCoroutine(playerMovement.GetKnockedBack(knockbackDirection));
             }
-            StartCoroutine(playerMovement.GetKnockedBack(knockbackDirection));
         }
     }
 
@@ -122,7 +124,7 @@ public class PlayerHealth : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.transform.parent?.gameObject.TryGetComponent<Enemy>(out Enemy enemy) == true){
-            enemyTransform = other.transform;
+            enemyTransform = other.transform.parent;
             touchingEnemy = true;
             if (!immune){
                 TakeDamage(enemy.damage);

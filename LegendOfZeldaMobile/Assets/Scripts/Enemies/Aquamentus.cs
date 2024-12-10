@@ -34,8 +34,8 @@ public class Aquamentus : Enemy
     }
 
     private float timeBeforeAttacking = 3f;
-    private float throwInterval = 3.5f;
-    private float maxAngDev = 15f;
+    private float throwInterval = 4.5f;
+    private float maxAngDev = 10f;
     private float secondaryFireballsDev = 20f; // TEST THIS FIELD
     private Transform link => GameManager.instance.link;
     private IEnumerator AttackPattern()
@@ -57,7 +57,8 @@ public class Aquamentus : Enemy
     public void ThrowFireball(Vector2 direction, float angleChange = 0f)
     {
         Vector2 adjustedPosition = (Vector2)transform.position + direction * 0.2f;
-        GameObject fireballObj = Instantiate(fireball, adjustedPosition, Quaternion.identity, transform);
+        Transform fireballs = transform.Find("Fireballs");
+        GameObject fireballObj = Instantiate(fireball, adjustedPosition, Quaternion.identity, fireballs);
         fireballObj.GetComponent<Fireball>().Initialize(direction, damage, angleChange);
     }
 }

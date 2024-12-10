@@ -105,7 +105,8 @@ public class RedGoriya : Enemy
     public void ThrowBoomerang(Vector2 direction)
     {
         Vector2 adjustedPosition = (Vector2)transform.position + direction * 0.2f;
-        GameObject boomerangObj = Instantiate(boomerang, adjustedPosition, Quaternion.identity, transform);
+        Transform rangs = transform.Find("Boomerangs");
+        GameObject boomerangObj = Instantiate(boomerang, adjustedPosition, Quaternion.identity, rangs);
         boomerangObj.GetComponent<EnemyBoomerang>().Initialize(direction, transform);
     }
 

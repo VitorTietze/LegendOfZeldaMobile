@@ -73,6 +73,7 @@ public class EnemyBoomerang : MonoBehaviour
         if (parentOther != null){
             if (parentOther.gameObject.TryGetComponent<PlayerHealth>(out PlayerHealth playerHealth)){
                 playerHealth.TakeDamage(damage);
+                playerHealth.touchingEnemy = false;
                 if (!returning) Return();
             }
         }

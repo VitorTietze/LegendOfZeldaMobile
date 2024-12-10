@@ -13,14 +13,20 @@ public class Wallmaster : Enemy
         damage = 1f;
     }
 
-    protected override void OnBecameVisible()
+    private void Start()
     {
         StartCoroutine(CheckIfLinkClose());
+        transform.Find("Sprite").gameObject.SetActive(false);
+    }
+
+    protected override void OnBecameVisible()
+    {
+        //StartCoroutine(CheckIfLinkClose());
         //movementPattern = StartCoroutine(MovementPattern());
     }
 
     private float distanceThreshold = 3.5f; // arbitrary
-    private float distanceToExitWall = 1.5f; // arbitrary
+    private float distanceToExitWall = 2.5f; // arbitrary
     private float timeToExitWall => distanceToExitWall / speed;
     private Transform link => GameManager.instance.link;
     private IEnumerator CheckIfLinkClose()
@@ -30,6 +36,7 @@ public class Wallmaster : Enemy
             yield return new WaitForSeconds(0.2f);
         }
 
+        transform.Find("Sprite").gameObject.SetActive(true);
         Vector3 startingDirection2D = new Vector3(startingDirection.x, startingDirection.y, 0f);
         float angle = Mathf.Atan2(startingDirection2D.y, startingDirection2D.x) * Mathf.Rad2Deg;
         transform.Find("Sprite").rotation = Quaternion.Euler(0f, 0f, angle-90);
@@ -90,11 +97,13 @@ public class Wallmaster : Enemy
         }
     }
 
-    private float timeUntilEnablesCollider = 3f;
+    private float timeUntilEnablesCollider = 0.25f;
     private IEnumerator EnableCollider()
     {
         yield return new WaitForSeconds(timeUntilEnablesCollider);
 
         GetComponent<CircleCollider2D>().enabled = true;
     }
+
+    protected virtual void OnTriggerEnter2D(Collider2D other) { }
 }

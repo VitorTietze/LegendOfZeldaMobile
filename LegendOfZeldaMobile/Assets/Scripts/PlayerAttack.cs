@@ -89,7 +89,8 @@ public class PlayerAttack : MonoBehaviour
     public void ThrowSword()
     {
         Vector2 adjustedPosition = (Vector2)transform.position + direction * 0.7f;
-        GameObject swordObj = Instantiate(thrownSword, adjustedPosition, Quaternion.identity, transform);
+        Transform swords = transform.Find("ThrownSwords");
+        GameObject swordObj = Instantiate(thrownSword, adjustedPosition, Quaternion.identity, swords);
         swordObj.GetComponent<ThrownSword>().Initialize(direction, damage);
     }
 }

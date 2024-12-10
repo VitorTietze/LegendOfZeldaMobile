@@ -13,7 +13,7 @@ public class PlayerHealth : MonoBehaviour
     private float health;
     public bool isFullHealth => health == maxHealth;
     public /* static */ bool immune;
-    private bool touchingEnemy;
+    [HideInInspector] public bool touchingEnemy;
 
     private int keys;
 
@@ -44,6 +44,7 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(float damage, bool triggerImmunity = true)
     {
         if (immune) return;
+        Debug.Log("touchingEnemy: " + touchingEnemy);
         health = Mathf.Max(health - damage, 0);
         UpdateHearts();
         if (health == 0) Die();
@@ -156,7 +157,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Doors"))
         {
-            if (keys > 0){
+            if (keys > 0 && other.otherCollider is CapsuleCollider2D){
                 UnlockDoor(other.transform);
             }
         }

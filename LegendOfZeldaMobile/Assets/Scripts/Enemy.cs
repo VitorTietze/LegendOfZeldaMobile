@@ -21,7 +21,7 @@ public abstract class Enemy : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        Debug.Log($"{gameObject} took {damage} damage.");
+        //Debug.Log($"{gameObject} took {damage} damage.");
         health -= damage;
         if (health <= 0){
             Die();
@@ -41,7 +41,7 @@ public abstract class Enemy : MonoBehaviour
 
     private void OnBecameInvisible()
     {
-        StopCoroutine(movementPattern);
+        if (movementPattern != null) StopCoroutine(movementPattern);
     }
 
     private float knockbackDistance = 1.5f;
@@ -57,7 +57,7 @@ public abstract class Enemy : MonoBehaviour
 
     protected abstract IEnumerator MovementPattern();
 
-    private void OnTriggerEnter2D(Collider2D other)
+    protected virtual void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Walls")){
             rb.velocity *= -1;

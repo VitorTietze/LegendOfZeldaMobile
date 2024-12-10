@@ -12,16 +12,14 @@ public class CanvasManager : MonoBehaviour
         GameManager.instance.finalScreen = transform.Find("FinalScreen");
 
         transform.Find("PauseButton").GetComponent<Button>().onClick.AddListener(
-            () => GameManager.instance.PressPause()
-        );
+            () => GameManager.instance.PressPause());
         GameManager.instance.pauseScreen.Find("QuitButton").GetComponent<Button>().onClick.AddListener(
-            () => GameManager.instance.QuitApplication()
-        );
+            () => GameManager.instance.QuitApplication());
+        GameManager.instance.pauseScreen.Find("ExtraHeartToggle").GetComponent<Toggle>().
+            onValueChanged.AddListener(value => GameManager.instance.ToggleExtraHeart(value));
         GameManager.instance.gameOverScreen.Find("RestartButton").GetComponent<Button>().onClick.AddListener(
-            () => GameManager.instance.Restart()
-        );
+            () => GameManager.instance.Restart());
         GameManager.instance.finalScreen.Find("RestartButton").GetComponent<Button>().onClick.AddListener(
-            () => GameManager.instance.Restart()
-        );
+            () => GameManager.instance.Restart());
     }
 }

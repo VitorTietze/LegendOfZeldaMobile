@@ -12,7 +12,7 @@ public class PlayerAttack : MonoBehaviour
     private GameObject thrownSword;
     private float damage = 1f;
     public float attackTime = 0.25f;
-    private float width = 1.25f;
+    private float width = 1.5f;
     private float depth = 2.5f;//1.85f; // 2.5 might be it tho
     private Vector2 direction;
     private LayerMask layerMask;

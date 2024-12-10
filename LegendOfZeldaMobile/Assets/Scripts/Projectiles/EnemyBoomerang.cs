@@ -5,9 +5,9 @@ using UnityEngine;
 public class EnemyBoomerang : MonoBehaviour
 {
     [SerializeField] private new Rigidbody2D rigidbody;
-    private float speed = 2.5f;
+    private float speed = 2.6f;
     private float damage = 1f;
-    private float flyingTime = 7f;
+    private float flyingTime = 6.3f;
     private bool returning = false;
 
     private Vector2 spawnPosition;
@@ -22,7 +22,7 @@ public class EnemyBoomerang : MonoBehaviour
         StartCoroutine(SpinSprite());
     }
 
-    private float framerate = 4f;
+    private float framerate = 6f;
     private float frametime => 1f / framerate;
     private IEnumerator SpinSprite()
     {

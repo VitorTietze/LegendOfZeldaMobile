@@ -37,7 +37,7 @@ public class Stalfos : Enemy
             rb.velocity = randomDirection * speed;
 
             interval = Random.Range(movementChangeIntervalRange.min, movementChangeIntervalRange.max);
-            yield return new WaitForSeconds(interval);
+            yield return new WaitForSeconds(interval + 0.3f);
 
             randomDirection = (PlayerHealth.player.position - transform.position).normalized;
             if (Mathf.Abs(randomDirection.x) > Mathf.Abs(randomDirection.y)){

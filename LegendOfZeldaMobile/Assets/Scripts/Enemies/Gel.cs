@@ -7,7 +7,7 @@ public class Gel : Enemy
     protected override void SetStartingStats()
     {
         health = 1f;
-        speed = 0.5f;
+        speed = 0.75f;
         damage = 1f;
     }
 

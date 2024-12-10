@@ -41,6 +41,19 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void ToggleExtraHeart(bool state)
+    {
+        PlayerHealth playerHealth = link.GetComponent<PlayerHealth>();
+
+        if (state){
+            playerHealth.GainHeart(1);
+            playerHealth.HealHeart(1f);
+        } else {
+            playerHealth.GainHeart(-1);
+            playerHealth.TakeDamage(1f, false);
+        }
+    }
+
     public void GameOver()
     {
         gameOverScreen.gameObject.SetActive(true);

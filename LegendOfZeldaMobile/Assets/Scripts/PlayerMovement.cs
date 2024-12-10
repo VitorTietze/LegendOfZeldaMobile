@@ -18,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
     public int vertical = 1;
 
     [SerializeField] new private Transform camera;
-    [SerializeField] private Vector2 roomIntervals;
     [SerializeField] private float doorMovements;
     private Coroutine moveCoroutine;
     private int roomsLayer;

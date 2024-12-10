@@ -41,13 +41,15 @@ public class PlayerHealth : MonoBehaviour
         GameManager.instance.link = transform;
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(float damage, bool triggerImmunity = true)
     {
         if (immune) return;
         health = Mathf.Max(health - damage, 0);
         UpdateHearts();
         if (health == 0) Die();
-        else StartCoroutine(ImmunityTime(1.5f));
+        else if (triggerImmunity){
+            StartCoroutine(ImmunityTime(1.5f));
+        }
     }
 
     private void Die()

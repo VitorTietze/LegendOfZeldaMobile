@@ -17,13 +17,13 @@ public class RedGoriya : Enemy
 
     protected override void SetStartingStats()
     {
-        health = 4f;
+        health = 3f;
         speed = 1.8f;
         damage = 1f;
     }
 
     private bool canMove = true;
-    private (float min, float max) movementChangeIntervalRange = (1.75f, 2.35f);
+    private (float min, float max) movementChangeIntervalRange = (1.55f, 2.15f);
     protected override IEnumerator MovementPattern()
     {
         StartCoroutine(AttackCheck());
@@ -104,13 +104,19 @@ public class RedGoriya : Enemy
 
     public void ThrowBoomerang(Vector2 direction)
     {
-        Vector2 adjustedPosition = (Vector2)transform.position + direction * 0.7f;
+        Vector2 adjustedPosition = (Vector2)transform.position + direction * 0.2f;
         GameObject boomerangObj = Instantiate(boomerang, adjustedPosition, Quaternion.identity, transform);
         boomerangObj.GetComponent<EnemyBoomerang>().Initialize(direction, transform);
     }
 
     public void BoomerangReturned()
     {
+        StartCoroutine(ThrowDelayAfterReturning());
+    }
+
+    private IEnumerator ThrowDelayAfterReturning()
+    {
+        yield return new WaitForSeconds(2.5f);
         canMove = true;
         animatedPlus.running = true;
         animatedPlus.attacking = false;

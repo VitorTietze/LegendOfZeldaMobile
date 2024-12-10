@@ -14,8 +14,8 @@ public class PlayerMovement : MonoBehaviour
     private new Rigidbody2D rigidbody;
     public bool isMoving;
     private Vector2 movementDirection;
-    public int horizontal;
-    public int vertical;
+    public int horizontal = 0;
+    public int vertical = 1;
 
     [SerializeField] new private Transform camera;
     [SerializeField] private Vector2 roomIntervals;
@@ -31,6 +31,9 @@ public class PlayerMovement : MonoBehaviour
         rigidbody = GetComponent<Rigidbody2D>();
 
         roomsLayer = LayerMask.NameToLayer("Rooms");
+
+        horizontal = 0;
+        vertical = 1;
     }
 
     private void Update()
